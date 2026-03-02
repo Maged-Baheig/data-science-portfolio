@@ -18,7 +18,18 @@
 | **Year** | 2021 |
 | **Type** | Supervised Learning (Regression) |
 | **Objective** | Predict continuous insurance claim amounts |
-| **Ranking** | **Top 30%** (outperforming ~70% of participants) |
+| **Ranking** | **Top 30%** (outperforming ~70% of 8,040 participants) |
+
+---
+
+## 🏅 Competition Stats
+
+| Metric | Value |
+|--------|-------|
+| **Participants** | 8,040 |
+| **Teams** | 7,573 |
+| **Total Submissions** | 60,288 |
+| **My Ranking** | **Top 30%** |
 
 ---
 
@@ -91,7 +102,7 @@ Predict a continuous target variable (insurance claim amount) based on a mix of 
 | **Best RMSE** | 0.7249 |
 | **Max RMSE** | 0.7261 |
 | **Average RMSE (CV)** | 0.7255 |
-| **Competition Ranking** | **Top 30%** |
+| **Competition Ranking** | **Top 30%** of 8,040 participants |
 
 ### Cross-Validation Performance
 
@@ -141,13 +152,19 @@ Predict a continuous target variable (insurance claim amount) based on a mix of 
 ## 🚀 How to Run
 
 ### Option 1: Kaggle (Recommended)
-1. Visit the competition page
-2. Fork this notebook
-3. Run all cells
+
+| Step | Action |
+|------|--------|
+| 1 | Visit the competition page |
+| 2 | Fork this notebook |
+| 3 | Run all cells |
 
 ### Option 2: Local
-1. Install dependencies: `pip install -r requirements.txt`
-2. Open notebook: `jupyter notebook 30-days-of-ml-competition.ipynb`
+
+| Step | Command |
+|------|---------|
+| 1 | `pip install -r requirements.txt` |
+| 2 | `jupyter notebook 30-days-of-ml-competition.ipynb` |
 
 > **Note:** Dataset is available only through Kaggle competition.
 
@@ -191,7 +208,9 @@ Based on analysis, the most impactful features were:
 |--------|-------|
 | **Host** | Kaggle |
 | **Duration** | 30 days |
-| **Participants** | 7,000+ |
+| **Participants** | 8,040 |
+| **Teams** | 7,573 |
+| **Submissions** | 60,288 |
 | **Evaluation** | RMSE (Root Mean Squared Error) |
 | **Dataset** | Synthetic (CTGAN-generated from real data) |
 
@@ -206,8 +225,10 @@ Based on analysis, the most impactful features were:
 | LinkedIn | [Connect](https://www.linkedin.com/in/magedbaheig) |
 | Kaggle | [Profile](https://www.kaggle.com/magedbaheig) |
 | GitHub | [Follow](https://github.com/Maged-Baheig) |
-| Email | [Email Me](mailto:magedbaheig@gmail.com) |
-- **Location:** Cairo, Egypt
+| Email | [Reach Out](mailto:magedbaheig@gmail.com) |
+
+📍 **Location:** Cairo, Egypt
+
 ---
 
 *Part of the [Data Science Portfolio](../../)*
