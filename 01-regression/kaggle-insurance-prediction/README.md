@@ -164,9 +164,9 @@ Dataset: Synthetic (CTGAN-generated from real data)
 👤 Author
 Maged Baheig
 
-- **LinkedIn:** [https://www.linkedin.com/in/magedbaheig](https://www.linkedin.com/in/magedbaheig)
-- **Email:** [magedbaheig@gmail.com](mailto:magedbaheig@gmail.com)
-- **GitHub:** [https://github.com/Maged-Baheig](https://github.com/Maged-Baheig)
-- **Kaggle:** [https://www.kaggle.com/magedbaheig](https://www.kaggle.com/magedbaheig)
-- **Location:** Cairo, Egypt
+LinkedIn: https://www.linkedin.com/in/magedbaheig
+GitHub: https://github.com/Maged-Baheig
+Kaggle: https://www.kaggle.com/magedbaheig
+Email: magedbaheig@gmail.com
+Location: Cairo, Egypt
 
