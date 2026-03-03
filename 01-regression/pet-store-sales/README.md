@@ -1,6 +1,6 @@
 # 🐾 Pawdacity Store Expansion Analysis
 
-**Data Preparation & Outlier Analysis for Location Recommendation**
+**Outlier Analysis & Statistical Predictor Selection for Location Recommendation**
 
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green)
 ![Alteryx](https://img.shields.io/badge/Alteryx-Workflow-orange)
@@ -16,9 +16,9 @@
 |--------|---------|
 | **Course** | Udacity Predictive Analytics for Business (Bertelsmann) |
 | **Year** | 2021 |
-| **Type** | Data Preparation / Analytical Dataset Creation |
-| **Objective** | Prepare clean dataset for store location prediction model |
-| **Output** | Analysis-ready dataset with outliers handled |
+| **Type** | Data Preparation / Outlier Analysis / Predictor Selection |
+| **Objective** | Prepare clean dataset and identify optimal predictors for store location prediction |
+| **Output** | Analysis-ready dataset with statistically validated predictor variables (R² 0.82) |
 
 ---
 
@@ -38,7 +38,8 @@
 Pawdacity, a leading pet store chain in Wyoming with **13 stores**, wants to expand by opening a **14th store**. The task is to:
 - Prepare a clean analytical dataset
 - Handle outliers appropriately
-- Enable accurate sales prediction for location recommendation
+- **Identify statistically optimal predictors** for sales prediction
+- Enable accurate location recommendation
 
 ### Store Selection Criteria
 
@@ -112,7 +113,9 @@ Pawdacity, a leading pet store chain in Wyoming with **13 stores**, wants to exp
 
 ---
 
-## 📈 Predictor Variable Analysis
+## 📈 Statistical Predictor Selection
+
+> 🔬 **This project employed advanced correlation techniques (R², P-Value analysis) to identify optimal predictor variables for downstream linear regression modeling.**
 
 ### After Removing Gillette Outlier
 
@@ -154,8 +157,8 @@ Pawdacity, a leading pet store chain in Wyoming with **13 stores**, wants to exp
 |--------|-------|
 | **Records** | 10 cities (removed Gillette) |
 | **Target Variable** | Total Pawdacity Sales |
-| **Best Predictors** | Population Density, Census Population, Total Families |
-| **Model Readiness** | ✅ Ready for regression |
+| **Best Predictors** | Population Density (R² 0.82), Census Population, Total Families |
+| **Model Readiness** | ✅ Ready for regression with validated predictors |
 
 ---
 
@@ -164,9 +167,10 @@ Pawdacity, a leading pet store chain in Wyoming with **13 stores**, wants to exp
 | Learning | Details |
 |----------|---------|
 | **Outlier Strategy** | Don't remove all outliers blindly; test each scenario |
-| **Statistical Validation** | Compare R², P-values across scenarios |
+| **Statistical Predictor Selection** | Use R², P-values to validate predictor strength |
+| **Correlation Analysis** | Essential for choosing best regression variables |
 | **Business Context** | Cheyenne is state capital — high sales expected and valid |
-| **Data Quality** | Clean data enables better predictions |
+| **Data Quality** | Clean data + right predictors enables better predictions |
 | **Imputation Testing** | Tested mean/median imputation — removal performed better |
 
 ---
@@ -186,10 +190,10 @@ Pawdacity, a leading pet store chain in Wyoming with **13 stores**, wants to exp
 
 | Project | Type | Link |
 |---------|------|------|
+| School Cost Prediction | Data Prep + Predictor Selection | [Link](../school-cost-prediction/) |
 | Insurance Claims (Kaggle) | Regression (Python) | [Link](../kaggle-insurance-prediction/) |
 | Diamond Pricing | Regression | [Link](../diamond-pricing/) |
 | Catalog Demand | Regression | [Link](../catalog-demand/) |
-| School Cost Prediction | Data Prep + Regression | [Link](../school-cost-prediction/) |
 
 ---
 
