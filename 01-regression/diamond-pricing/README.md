@@ -201,4 +201,4 @@ Price = -5,269 + 8,413 × Carat + 158.1 × Cut + 454 × Clarity
 
 ---
 
-*Part of the [Data Science Portfolio](../../)*
+*Part of the [Data Science Portfolio](https://github.com/Maged-Baheig/data-science-portfolio/tree/main)*
