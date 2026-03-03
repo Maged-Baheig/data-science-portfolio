@@ -283,4 +283,4 @@ Gather data from multiple sources, assess data quality and tidiness issues, clea
 
 ---
 
-*Part of the [Data Science Portfolio](../../)*
+*Part of the [Data Science Portfolio](https://github.com/Maged-Baheig/data-science-portfolio/tree/main)*
