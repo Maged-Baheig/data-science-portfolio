@@ -1,0 +1,708 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>diamonds.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="carat" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="cut" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="cut_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="color" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="clarity" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="clarity_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+            <Field name="price" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>new-diamonds.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="carat" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="cut" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="cut_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="color" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="clarity" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+            <Field name="clarity_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="carat" selected="True" type="Double" size="8" />
+            <SelectField field="cut_ord" selected="True" type="Double" size="8" />
+            <SelectField field="clarity_ord" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="222" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-5269 + 8413 * [carat] + 158.1 * [cut_ord] + 454 * [clarity_ord]" field="Predicted_Price" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Predicted_Price = -5269 + 8413 * [carat] + 158.1 * [cut_ord] + 454 * [clarity_or...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Carat" />
+            <Field name="Cut_Ord" />
+            <Field name="Clarity_Ord" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1.5</c>
+              <c>3</c>
+              <c>5</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-5269 + 8413 * [carat] + 158.1 * [cut_ord] + 454 * [clarity_ord]" field="S1_Q2_Predicted_Price" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>S1_Q2_Predicted_Price = -5269 + 8413 * [carat] + 158.1 * [cut_ord] + 454 * [clar...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="426" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Predicted_Price" action="Sum" rename="Sum_Predicted_Price" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="342" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="S1_Q2_Predicted_Price" action="Sum" rename="Sum_S1_Q2_Predicted_Price" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Predicted_Price]*.70" field="Bid_Amount" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Bid_Amount = [Sum_Predicted_Price]*.70
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_S1_Q2_Predicted_Price]*.70" field="S1_Q2Bid_Amount" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[S1_Q2Bid_Amount = [Sum_S1_Q2_Predicted_Price]*.70
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>Custom</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="1" />
+                <Field name="carat" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="2" />
+                <Field name="cut" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="3" />
+                <Field name="cut_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="4" />
+                <Field name="color" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="5" />
+                <Field name="clarity" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="6" />
+                <Field name="clarity_ord" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="7" />
+                <Field name="price" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\diamonds.csv" type="V_String" column="8" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" column="1" />
+                <Field name="carat" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="Double" column="2" />
+                <Field name="cut" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" column="3" />
+                <Field name="cut_ord" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="Double" column="4" />
+                <Field name="color" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" column="5" />
+                <Field name="clarity" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="V_String" column="6" />
+                <Field name="clarity_ord" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\1. Welcome to the Program\L2_Predicting Diamond Prices PROJECT\P1.L2_Diamonds Project Files\new-diamonds.csv" type="Double" column="7" />
+                <Field name="Predicted_Price" source="Formula: -5269 + 8413 * [carat] + 158.1 * [cut_ord] + 454 * [clarity_ord]" type="Double" column="9" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" rename="Index" />
+            <SelectField field="carat" selected="True" type="Double" size="8" />
+            <SelectField field="cut" selected="True" />
+            <SelectField field="cut_ord" selected="True" type="Double" size="8" />
+            <SelectField field="color" selected="True" />
+            <SelectField field="clarity" selected="True" />
+            <SelectField field="clarity_ord" selected="True" type="Double" size="8" />
+            <SelectField field="price" selected="True" type="Double" size="8" />
+            <SelectField field="Predicted_Price" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Predicted_Price] = Null() THEN &quot;Training Data&quot; ELSE &quot;Test Data&quot; ENDIF" field="Data" size="1073741823" type="V_WString" />
+            <FormulaField expression="IF [price] = Null() THEN [Predicted_Price] ELSE [price] ENDIF" field="price" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data = IF [Predicted_Price] = Null() THEN "Training Data" ELSE "Test Data" ENDIF...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Index" selected="True" />
+            <SelectField field="carat" selected="True" />
+            <SelectField field="cut" selected="True" />
+            <SelectField field="cut_ord" selected="True" />
+            <SelectField field="color" selected="True" />
+            <SelectField field="clarity" selected="True" />
+            <SelectField field="clarity_ord" selected="True" />
+            <SelectField field="price" selected="True" />
+            <SelectField field="Data" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="750" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="x var">carat</Value>
+          <Value name="y var">price</Value>
+          <Value name="y binary">False</Value>
+          <Value name="y level" />
+          <Value name="reg line">False</Value>
+          <Value name="smooth line">False</Value>
+          <Value name="smooth span">50</Value>
+          <Value name="spread">True</Value>
+          <Value name="boxplots">True</Value>
+          <Value name="jitter x">False</Value>
+          <Value name="jitter y">False</Value>
+          <Value name="log x">False</Value>
+          <Value name="log y">False</Value>
+          <Value name="groups">True</Value>
+          <Value name="group var">Data</Value>
+          <Value name="group lines">True</Value>
+          <Value name="default">False</Value>
+          <Value name="topleft">False</Value>
+          <Value name="topright">False</Value>
+          <Value name="bottomleft">True</Value>
+          <Value name="bottomright">False</Value>
+          <Value name="x label" />
+          <Value name="y label" />
+          <Value name="pointsize">10</Value>
+          <Value name="point size">1.0</Value>
+          <Value name="axis text size">1.2</Value>
+          <Value name="axis label size">1.3</Value>
+          <Value name="title size">1.4</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Scatterplot.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_14124_a43bc1fb0d044d6cbeb94c5984dedbc3_\Engine_8988_d425bced69354dd48c17ec773b86c1e7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="330" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Predicted_Price]&lt;0 THEN 0 ELSE [Predicted_Price] ENDIF" field="No Negative" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[No Negative = IF [Predicted_Price]<0 THEN 0 ELSE [Predicted_Price] ENDIF
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="426" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="No Negative" action="Sum" rename="Sum_No Negative" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_No Negative]*.70" field="Bid_Amount" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Bid_Amount = [Sum_No Negative]*.70
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="306" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_14124_a43bc1fb0d044d6cbeb94c5984dedbc3_\Engine_8988_79697494a2604ab89257a5d2c2668226_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_14124_a43bc1fb0d044d6cbeb94c5984dedbc3_\Engine_8988_fe56d5376a1e47958ba80d4ce6b1407f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_14124_a43bc1fb0d044d6cbeb94c5984dedbc3_\Engine_8988_f99d6670c75741dbb55904598a0e5304_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="20" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Scater Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P1_Predicting Diamonds Price_Maged Solution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
