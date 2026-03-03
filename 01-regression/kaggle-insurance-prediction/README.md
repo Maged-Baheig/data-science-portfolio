@@ -231,4 +231,4 @@ Based on analysis, the most impactful features were:
 
 ---
 
-*Part of the [Data Science Portfolio](../../)*
+*Part of the [Data Science Portfolio](https://github.com/Maged-Baheig/data-science-portfolio/tree/main)*
