@@ -38,40 +38,37 @@ This portfolio contains **12 end-to-end data science projects** demonstrating ha
 
 ### 1️⃣ Regression (5 Projects)
 
-| Project | Techniques | Scale | Results |
-|---------|------------|-------|---------|
-| [Insurance Claims (Kaggle)](./01-regression/kaggle-insurance-prediction/) | XGBoost, LightGBM | 300K train / 200K test | **Top 30%**, RMSE 0.725 |
-| [Diamond Pricing](./01-regression/diamond-pricing/) | Linear Regression | 5K records | Price prediction |
-| [Catalog Demand](./01-regression/catalog-demand/) | Linear Regression | 2.3K records | Profit estimation |
-| [School Cost](./01-regression/school-cost-prediction/) | Data Prep + Regression | Messy dataset | Clean dataset |
-| [Pet Store Sales](./01-regression/pet-store-sales/) | Data Prep + Regression | Messy dataset | Location recommendation |
-
-### 1️⃣ Regression (5 Projects)
-
 #### 🐍 Python-Based
+
 | Project | Techniques | Scale | Results |
 |---------|------------|-------|---------|
 | [Insurance Claims (Kaggle)](./01-regression/kaggle-insurance-prediction/) | XGBoost, LightGBM | 500K records | **Top 30%**, RMSE 0.725 |
 
-#### 📊 Excel/Alteryx-Based
+#### 📊 Excel/Alteryx-Based (Modeling)
+
 | Project | Techniques | Scale | Results |
 |---------|------------|-------|---------|
-| [Diamond Pricing](./01-regression/diamond-pricing/) | Linear Regression | 5K records | R² 0.92, $8.2M bid |
-| [Catalog Demand](./01-regression/catalog-demand/) | Linear Regression | 2.3K records | $21,987 profit |
+| [Diamond Pricing](./01-regression/diamond-pricing/) | Linear Regression (Dummy) | 5K train / 3K predict | R² 0.92, $8.2M bid |
+| [Catalog Demand](./01-regression/catalog-demand/) | Linear Regression | 2.3K train / 250 predict | R² 0.84, $21,987 profit |
 
-#### 🔧 Data Preparation for Regression
+#### 🔧 Data Preparation for Regression (with Statistical Predictor Selection)
+
 | Project | Focus | Scale | Results |
 |---------|-------|-------|---------|
-| [School Cost Prediction](./01-regression/school-cost-prediction/) | Data Cleaning | Messy dataset | Regression-ready dataset |
-| [Pet Store Sales](./01-regression/pet-store-sales/) | Outlier Analysis | 11 cities | R² 0.82 predictors identified |
+| [School Cost Prediction](./01-regression/school-cost-prediction/) | Data Cleaning & Prep | Messy dataset | Regression-ready; correlation-validated predictors |
+| [Pet Store Sales (Pawdacity)](./01-regression/pet-store-sales/) | Outlier Analysis & Prep | 11 → 10 cities | R² 0.82 predictors identified via statistical validation |
 
+> 💡 *Data Preparation projects used advanced correlation techniques (R², P-Value) to select optimal predictor variables for downstream regression modeling.*
 
+---
 
 ### 2️⃣ Classification (2 Projects)
 
 | Project | Techniques | Results |
 |---------|------------|---------|
 | [Credit Default Risk](./02-classification/credit-default-risk/) | Logistic Regression, Decision Tree, Random Forest, GBM | Multi-model comparison |
+
+---
 
 ### 3️⃣ Clustering & Segmentation (2 Projects)
 
@@ -80,17 +77,23 @@ This portfolio contains **12 end-to-end data science projects** demonstrating ha
 | [Country Segmentation](./03-clustering/country-segmentation/) | PCA, K-Means, Neural Gas | Market expansion analysis |
 | [Capstone: Store Optimization](./03-clustering/capstone-store-optimization/) | Clustering + Classification + Time Series | End-to-end solution |
 
+---
+
 ### 4️⃣ Time Series Forecasting (2 Projects)
 
 | Project | Techniques | Results |
 |---------|------------|---------|
 | [Video Game Forecasting](./04-time-series/video-game-forecasting/) | ETS, ARIMA | 80%/95% confidence intervals |
 
+---
+
 ### 5️⃣ A/B Testing (1 Project)
 
 | Project | Techniques | Results |
 |---------|------------|---------|
 | [Coffee Shop Menu Launch](./05-ab-testing/coffee-shop-menu-launch/) | Matched-Pair Design | Statistical significance testing |
+
+---
 
 ### 6️⃣ Data Wrangling (2 Projects)
 
