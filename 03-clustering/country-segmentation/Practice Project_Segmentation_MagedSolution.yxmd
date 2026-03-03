@@ -1,0 +1,2339 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="1626" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="Country_Code" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="Country_Code" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="Country_Code" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Country_Code" selected="True" />
+                <SelectField field="Input_#1_Country_Name" selected="True" />
+                <SelectField field="Input_#1_Country_LongName" selected="True" />
+                <SelectField field="Input_#1_Table_Name" selected="True" />
+                <SelectField field="Input_#1_PC1" selected="True" rename="AvgEdu_PC1" />
+                <SelectField field="Input_#1_PC2" selected="True" rename="AvgEdu_PC2" />
+                <SelectField field="Input_#1_PC3" selected="False" rename="AvgEdu_PC3" />
+                <SelectField field="Input_#1_PC4" selected="False" rename="AvgEdu_PC4" />
+                <SelectField field="Input_#2_Country_Code" selected="False" rename="Input_#2_Country_Code" />
+                <SelectField field="Input_#2_Country_Name" selected="False" rename="Input_#2_Country_Name" />
+                <SelectField field="Input_#2_Country_LongName" selected="False" rename="Input_#2_Country_LongName" />
+                <SelectField field="Input_#2_Table_Name" selected="False" rename="Input_#2_Table_Name" />
+                <SelectField field="Input_#2_BAR_SCHL_1519" selected="False" rename="Input_#2_BAR_SCHL_1519" />
+                <SelectField field="Input_#2_BAR_SCHL_1519_FE" selected="False" rename="Input_#2_BAR_SCHL_1519_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_15UP" selected="False" rename="Input_#2_BAR_SCHL_15UP" />
+                <SelectField field="Input_#2_BAR_SCHL_15UP_FE" selected="False" rename="Input_#2_BAR_SCHL_15UP_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_2024" selected="False" rename="Input_#2_BAR_SCHL_2024" />
+                <SelectField field="Input_#2_BAR_SCHL_2024_FE" selected="False" rename="Input_#2_BAR_SCHL_2024_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_2529" selected="False" rename="Input_#2_BAR_SCHL_2529" />
+                <SelectField field="Input_#2_BAR_SCHL_2529_FE" selected="False" rename="Input_#2_BAR_SCHL_2529_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_25UP" selected="False" rename="Input_#2_BAR_SCHL_25UP" />
+                <SelectField field="Input_#2_BAR_SCHL_25UP_FE" selected="False" rename="Input_#2_BAR_SCHL_25UP_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_3034" selected="False" rename="Input_#2_BAR_SCHL_3034" />
+                <SelectField field="Input_#2_BAR_SCHL_3034_FE" selected="False" rename="Input_#2_BAR_SCHL_3034_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_3539" selected="False" rename="Input_#2_BAR_SCHL_3539" />
+                <SelectField field="Input_#2_BAR_SCHL_3539_FE" selected="False" rename="Input_#2_BAR_SCHL_3539_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_4044" selected="False" rename="Input_#2_BAR_SCHL_4044" />
+                <SelectField field="Input_#2_BAR_SCHL_4044_FE" selected="False" rename="Input_#2_BAR_SCHL_4044_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_4549" selected="False" rename="Input_#2_BAR_SCHL_4549" />
+                <SelectField field="Input_#2_BAR_SCHL_4549_FE" selected="False" rename="Input_#2_BAR_SCHL_4549_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_5054" selected="False" rename="Input_#2_BAR_SCHL_5054" />
+                <SelectField field="Input_#2_BAR_SCHL_5054_FE" selected="False" rename="Input_#2_BAR_SCHL_5054_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_5559" selected="False" rename="Input_#2_BAR_SCHL_5559" />
+                <SelectField field="Input_#2_BAR_SCHL_5559_FE" selected="False" rename="Input_#2_BAR_SCHL_5559_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_6064" selected="False" rename="Input_#2_BAR_SCHL_6064" />
+                <SelectField field="Input_#2_BAR_SCHL_6064_FE" selected="False" rename="Input_#2_BAR_SCHL_6064_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_6569" selected="False" rename="Input_#2_BAR_SCHL_6569" />
+                <SelectField field="Input_#2_BAR_SCHL_6569_FE" selected="False" rename="Input_#2_BAR_SCHL_6569_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_7074" selected="False" rename="Input_#2_BAR_SCHL_7074" />
+                <SelectField field="Input_#2_BAR_SCHL_7074_FE" selected="False" rename="Input_#2_BAR_SCHL_7074_FE" />
+                <SelectField field="Input_#2_BAR_SCHL_75UP" selected="False" rename="Input_#2_BAR_SCHL_75UP" />
+                <SelectField field="Input_#2_BAR_SCHL_75UP_FE" selected="False" rename="Input_#2_BAR_SCHL_75UP_FE" />
+                <SelectField field="Input_#2_EG_ELC_ACCS_ZS" selected="False" rename="Input_#2_EG_ELC_ACCS_ZS" />
+                <SelectField field="Input_#2_EN_POP_SLUM_UR_ZS" selected="False" rename="Input_#2_EN_POP_SLUM_UR_ZS" />
+                <SelectField field="Input_#2_FB_ATM_TOTL_P5" selected="False" rename="Input_#2_FB_ATM_TOTL_P5" />
+                <SelectField field="Input_#2_IC_ELC_TIME" selected="False" rename="Input_#2_IC_ELC_TIME" />
+                <SelectField field="Input_#2_IC_FRM_ISOC_ZS" selected="False" rename="Input_#2_IC_FRM_ISOC_ZS" />
+                <SelectField field="Input_#2_IC_TAX_TOTL_CP_ZS" selected="False" rename="Input_#2_IC_TAX_TOTL_CP_ZS" />
+                <SelectField field="Input_#2_IQ_WEF_PORT_XQ" selected="False" rename="Input_#2_IQ_WEF_PORT_XQ" />
+                <SelectField field="Input_#2_SE_ADT_1524_LT_FE_ZS" selected="False" rename="Input_#2_SE_ADT_1524_LT_FE_ZS" />
+                <SelectField field="Input_#2_SE_ADT_1524_LT_FM_ZS" selected="False" rename="Input_#2_SE_ADT_1524_LT_FM_ZS" />
+                <SelectField field="Input_#2_SE_ADT_1524_LT_MA_ZS" selected="False" rename="Input_#2_SE_ADT_1524_LT_MA_ZS" />
+                <SelectField field="Input_#2_SE_ADT_1524_LT_ZS" selected="False" rename="Input_#2_SE_ADT_1524_LT_ZS" />
+                <SelectField field="Input_#2_SE_ADT_LITR_FE_ZS" selected="False" rename="Input_#2_SE_ADT_LITR_FE_ZS" />
+                <SelectField field="Input_#2_SE_ADT_LITR_MA_ZS" selected="False" rename="Input_#2_SE_ADT_LITR_MA_ZS" />
+                <SelectField field="Input_#2_SE_ADT_LITR_ZS" selected="False" rename="Input_#2_SE_ADT_LITR_ZS" />
+                <SelectField field="Input_#2_SE_XPD_TOTL_GD_ZS" selected="False" rename="Input_#2_SE_XPD_TOTL_GD_ZS" />
+                <SelectField field="Input_#2_SL_EMP_TOTL_SP_ZS" selected="False" rename="Input_#2_SL_EMP_TOTL_SP_ZS" />
+                <SelectField field="Input_#2_SL_TLF_SECO_ZS" selected="False" rename="Input_#2_SL_TLF_SECO_ZS" />
+                <SelectField field="Input_#2_SL_TLF_TOTL_IN" selected="False" rename="Input_#2_SL_TLF_TOTL_IN" />
+                <SelectField field="Input_#2_TM_TAX_MANF_SM_FN_ZS" selected="False" rename="Input_#2_TM_TAX_MANF_SM_FN_ZS" />
+                <SelectField field="Input_#2_UIS_EA_1_AG25T99" selected="False" rename="Input_#2_UIS_EA_1_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_1T6_AG25T99" selected="False" rename="Input_#2_UIS_EA_1T6_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_2_AG25T99" selected="False" rename="Input_#2_UIS_EA_2_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_2T6_AG25T99" selected="False" rename="Input_#2_UIS_EA_2T6_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_3_AG25T99" selected="False" rename="Input_#2_UIS_EA_3_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_3T6_AG25T99" selected="False" rename="Input_#2_UIS_EA_3T6_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_4_AG25T99" selected="False" rename="Input_#2_UIS_EA_4_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_4T6_AG25T99" selected="False" rename="Input_#2_UIS_EA_4T6_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_5_AG25T99" selected="False" rename="Input_#2_UIS_EA_5_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_5T8_AG25T99" selected="False" rename="Input_#2_UIS_EA_5T8_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_6_AG25T99" selected="False" rename="Input_#2_UIS_EA_6_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_6T8_AG25T99" selected="False" rename="Input_#2_UIS_EA_6T8_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_7_AG25T99" selected="False" rename="Input_#2_UIS_EA_7_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_7T8_AG25T99" selected="False" rename="Input_#2_UIS_EA_7T8_AG25T99" />
+                <SelectField field="Input_#2_UIS_EA_8_AG25T99" selected="False" rename="Input_#2_UIS_EA_8_AG25T99" />
+                <SelectField field="Input_#2_UIS_PTRHC_2" selected="False" rename="Input_#2_UIS_PTRHC_2" />
+                <SelectField field="Input_#2_UIS_PTRHC_3" selected="False" rename="Input_#2_UIS_PTRHC_3" />
+                <SelectField field="Input_#2_UIS_PTRHC_56" selected="False" rename="Input_#2_UIS_PTRHC_56" />
+                <SelectField field="Input_#2_PC1" selected="True" rename="Population_PC1" />
+                <SelectField field="Input_#2_PC2" selected="True" rename="Population_PC2" />
+                <SelectField field="Input_#2_PC3" selected="True" rename="Population_PC3" />
+                <SelectField field="Input_#2_PC4" selected="True" rename="Population_PC4" />
+                <SelectField field="Input_#3_Country_Code" selected="False" rename="Input_#3_Country_Code" />
+                <SelectField field="Input_#3_Country_Name" selected="False" rename="Input_#3_Country_Name" />
+                <SelectField field="Input_#3_Country_LongName" selected="False" rename="Input_#3_Country_LongName" />
+                <SelectField field="Input_#3_Table_Name" selected="False" rename="Input_#3_Table_Name" />
+                <SelectField field="Input_#3_BAR_SCHL_1519" selected="False" rename="Input_#3_BAR_SCHL_1519" />
+                <SelectField field="Input_#3_BAR_SCHL_1519_FE" selected="False" rename="Input_#3_BAR_SCHL_1519_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_15UP" selected="False" rename="Input_#3_BAR_SCHL_15UP" />
+                <SelectField field="Input_#3_BAR_SCHL_15UP_FE" selected="False" rename="Input_#3_BAR_SCHL_15UP_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_2024" selected="False" rename="Input_#3_BAR_SCHL_2024" />
+                <SelectField field="Input_#3_BAR_SCHL_2024_FE" selected="False" rename="Input_#3_BAR_SCHL_2024_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_2529" selected="False" rename="Input_#3_BAR_SCHL_2529" />
+                <SelectField field="Input_#3_BAR_SCHL_2529_FE" selected="False" rename="Input_#3_BAR_SCHL_2529_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_25UP" selected="False" rename="Input_#3_BAR_SCHL_25UP" />
+                <SelectField field="Input_#3_BAR_SCHL_25UP_FE" selected="False" rename="Input_#3_BAR_SCHL_25UP_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_3034" selected="False" rename="Input_#3_BAR_SCHL_3034" />
+                <SelectField field="Input_#3_BAR_SCHL_3034_FE" selected="False" rename="Input_#3_BAR_SCHL_3034_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_3539" selected="False" rename="Input_#3_BAR_SCHL_3539" />
+                <SelectField field="Input_#3_BAR_SCHL_3539_FE" selected="False" rename="Input_#3_BAR_SCHL_3539_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_4044" selected="False" rename="Input_#3_BAR_SCHL_4044" />
+                <SelectField field="Input_#3_BAR_SCHL_4044_FE" selected="False" rename="Input_#3_BAR_SCHL_4044_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_4549" selected="False" rename="Input_#3_BAR_SCHL_4549" />
+                <SelectField field="Input_#3_BAR_SCHL_4549_FE" selected="False" rename="Input_#3_BAR_SCHL_4549_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_5054" selected="False" rename="Input_#3_BAR_SCHL_5054" />
+                <SelectField field="Input_#3_BAR_SCHL_5054_FE" selected="False" rename="Input_#3_BAR_SCHL_5054_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_5559" selected="False" rename="Input_#3_BAR_SCHL_5559" />
+                <SelectField field="Input_#3_BAR_SCHL_5559_FE" selected="False" rename="Input_#3_BAR_SCHL_5559_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_6064" selected="False" rename="Input_#3_BAR_SCHL_6064" />
+                <SelectField field="Input_#3_BAR_SCHL_6064_FE" selected="False" rename="Input_#3_BAR_SCHL_6064_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_6569" selected="False" rename="Input_#3_BAR_SCHL_6569" />
+                <SelectField field="Input_#3_BAR_SCHL_6569_FE" selected="False" rename="Input_#3_BAR_SCHL_6569_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_7074" selected="False" rename="Input_#3_BAR_SCHL_7074" />
+                <SelectField field="Input_#3_BAR_SCHL_7074_FE" selected="False" rename="Input_#3_BAR_SCHL_7074_FE" />
+                <SelectField field="Input_#3_BAR_SCHL_75UP" selected="False" rename="Input_#3_BAR_SCHL_75UP" />
+                <SelectField field="Input_#3_BAR_SCHL_75UP_FE" selected="False" rename="Input_#3_BAR_SCHL_75UP_FE" />
+                <SelectField field="Input_#3_EG_ELC_ACCS_ZS" selected="False" rename="Input_#3_EG_ELC_ACCS_ZS" />
+                <SelectField field="Input_#3_EN_POP_SLUM_UR_ZS" selected="False" rename="Input_#3_EN_POP_SLUM_UR_ZS" />
+                <SelectField field="Input_#3_FB_ATM_TOTL_P5" selected="False" rename="Input_#3_FB_ATM_TOTL_P5" />
+                <SelectField field="Input_#3_IC_ELC_TIME" selected="False" rename="Input_#3_IC_ELC_TIME" />
+                <SelectField field="Input_#3_IC_FRM_ISOC_ZS" selected="False" rename="Input_#3_IC_FRM_ISOC_ZS" />
+                <SelectField field="Input_#3_IC_TAX_TOTL_CP_ZS" selected="False" rename="Input_#3_IC_TAX_TOTL_CP_ZS" />
+                <SelectField field="Input_#3_IQ_WEF_PORT_XQ" selected="False" rename="Input_#3_IQ_WEF_PORT_XQ" />
+                <SelectField field="Input_#3_SE_ADT_1524_LT_FE_ZS" selected="False" rename="Input_#3_SE_ADT_1524_LT_FE_ZS" />
+                <SelectField field="Input_#3_SE_ADT_1524_LT_FM_ZS" selected="False" rename="Input_#3_SE_ADT_1524_LT_FM_ZS" />
+                <SelectField field="Input_#3_SE_ADT_1524_LT_MA_ZS" selected="False" rename="Input_#3_SE_ADT_1524_LT_MA_ZS" />
+                <SelectField field="Input_#3_SE_ADT_1524_LT_ZS" selected="False" rename="Input_#3_SE_ADT_1524_LT_ZS" />
+                <SelectField field="Input_#3_SE_ADT_LITR_FE_ZS" selected="False" rename="Input_#3_SE_ADT_LITR_FE_ZS" />
+                <SelectField field="Input_#3_SE_ADT_LITR_MA_ZS" selected="False" rename="Input_#3_SE_ADT_LITR_MA_ZS" />
+                <SelectField field="Input_#3_SE_ADT_LITR_ZS" selected="False" rename="Input_#3_SE_ADT_LITR_ZS" />
+                <SelectField field="Input_#3_SE_XPD_TOTL_GD_ZS" selected="False" rename="Input_#3_SE_XPD_TOTL_GD_ZS" />
+                <SelectField field="Input_#3_SL_EMP_TOTL_SP_ZS" selected="False" rename="Input_#3_SL_EMP_TOTL_SP_ZS" />
+                <SelectField field="Input_#3_SL_TLF_SECO_ZS" selected="False" rename="Input_#3_SL_TLF_SECO_ZS" />
+                <SelectField field="Input_#3_SL_TLF_TOTL_IN" selected="False" rename="Input_#3_SL_TLF_TOTL_IN" />
+                <SelectField field="Input_#3_TM_TAX_MANF_SM_FN_ZS" selected="False" rename="Input_#3_TM_TAX_MANF_SM_FN_ZS" />
+                <SelectField field="Input_#3_UIS_EA_1_AG25T99" selected="False" rename="Input_#3_UIS_EA_1_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_1T6_AG25T99" selected="False" rename="Input_#3_UIS_EA_1T6_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_2_AG25T99" selected="False" rename="Input_#3_UIS_EA_2_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_2T6_AG25T99" selected="False" rename="Input_#3_UIS_EA_2T6_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_3_AG25T99" selected="False" rename="Input_#3_UIS_EA_3_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_3T6_AG25T99" selected="False" rename="Input_#3_UIS_EA_3T6_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_4_AG25T99" selected="False" rename="Input_#3_UIS_EA_4_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_4T6_AG25T99" selected="False" rename="Input_#3_UIS_EA_4T6_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_5_AG25T99" selected="False" rename="Input_#3_UIS_EA_5_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_5T8_AG25T99" selected="False" rename="Input_#3_UIS_EA_5T8_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_6_AG25T99" selected="False" rename="Input_#3_UIS_EA_6_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_6T8_AG25T99" selected="False" rename="Input_#3_UIS_EA_6T8_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_7_AG25T99" selected="False" rename="Input_#3_UIS_EA_7_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_7T8_AG25T99" selected="False" rename="Input_#3_UIS_EA_7T8_AG25T99" />
+                <SelectField field="Input_#3_UIS_EA_8_AG25T99" selected="False" rename="Input_#3_UIS_EA_8_AG25T99" />
+                <SelectField field="Input_#3_UIS_PTRHC_2" selected="False" rename="Input_#3_UIS_PTRHC_2" />
+                <SelectField field="Input_#3_UIS_PTRHC_3" selected="False" rename="Input_#3_UIS_PTRHC_3" />
+                <SelectField field="Input_#3_UIS_PTRHC_56" selected="False" rename="Input_#3_UIS_PTRHC_56" />
+                <SelectField field="Input_#3_PC1" selected="True" rename="Literacy_PC1" />
+                <SelectField field="Input_#3_PC2" selected="False" rename="Literacy_PC2" />
+                <SelectField field="Input_#3_PC3" selected="False" rename="Literacy_PC3" />
+                <SelectField field="Input_#3_PC4" selected="False" rename="Literacy_PC4" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="0" width="1147" height="307" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data Prep</Caption>
+          <Style TextColor="#314c4a" FillColor="#ff8080" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>country_data.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country Code" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="Country Name" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="Long Name" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="Table Name" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_1519" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_1519_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_15UP" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_15UP_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_2024" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_2024_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_2529" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_2529_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_25UP" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_25UP_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_3034" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_3034_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_3539" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_3539_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_4044" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_4044_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_4549" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_4549_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_5054" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_5054_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_5559" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_5559_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_6064" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_6064_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_6569" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_6569_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_7074" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_7074_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_75UP" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="BAR_SCHL_75UP_FE" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="EG_ELC_ACCS_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="EN_POP_SLUM_UR_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="FB_ATM_TOTL_P5" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="IC_ELC_TIME" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="IC_FRM_ISOC_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="IC_TAX_TOTL_CP_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="IQ_WEF_PORT_XQ" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="IT_NET_USER_P2" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_1524_LT_FE_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_1524_LT_FM_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_1524_LT_MA_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_1524_LT_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_LITR_FE_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_LITR_MA_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_ADT_LITR_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SE_XPD_TOTL_GD_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SG_VAW_BURN_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SH_DYN_AIDS_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SH_DYN_MORT" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SH_MED_PHYS_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SH_TBS_PREV" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SH_XPD_PCAP" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SL_EMP_TOTL_SP_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SL_TLF_SECO_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SL_TLF_TOTL_IN" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SN_ITK_DEFC_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="SP_POP_DPND" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_1_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_1T6_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_2_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_2T6_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_3_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_3T6_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_4_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_4T6_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_5_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_5T8_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_6_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_6T8_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_7_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_7T8_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_EA_8_AG25T99" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_PTRHC_2" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_PTRHC_3" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+                <Field name="UIS_PTRHC_56" size="254" source="File: F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\country_data.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings>
+            <Position x="137" y="223" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">Country Code=True,Country Name=True,Long Name=True,Table Name=True,BAR_SCHL_1519=True,BAR_SCHL_1519_FE=True,BAR_SCHL_15UP=True,BAR_SCHL_15UP_FE=True,BAR_SCHL_2024=True,BAR_SCHL_2024_FE=True,BAR_SCHL_2529=True,BAR_SCHL_2529_FE=True,BAR_SCHL_25UP=True,BAR_SCHL_25UP_FE=True,BAR_SCHL_3034=True,BAR_SCHL_3034_FE=True,BAR_SCHL_3539=True,BAR_SCHL_3539_FE=True,BAR_SCHL_4044=True,BAR_SCHL_4044_FE=True,BAR_SCHL_4549=True,BAR_SCHL_4549_FE=True,BAR_SCHL_5054=True,BAR_SCHL_5054_FE=True,BAR_SCHL_5559=True,BAR_SCHL_5559_FE=True,BAR_SCHL_6064=True,BAR_SCHL_6064_FE=True,BAR_SCHL_6569=True,BAR_SCHL_6569_FE=True,BAR_SCHL_7074=True,BAR_SCHL_7074_FE=True,BAR_SCHL_75UP=True,BAR_SCHL_75UP_FE=True,EG_ELC_ACCS_ZS=True,EN_POP_SLUM_UR_ZS=True,FB_ATM_TOTL_P5=True,IC_ELC_TIME=True,IC_FRM_ISOC_ZS=True,IC_TAX_TOTL_CP_ZS=True,IQ_WEF_PORT_XQ=True,IT_NET_USER_P2=True,SE_ADT_1524_LT_FE_ZS=True,SE_ADT_1524_LT_FM_ZS=True,SE_ADT_1524_LT_MA_ZS=True,SE_ADT_1524_LT_ZS=True,SE_ADT_LITR_FE_ZS=True,SE_ADT_LITR_MA_ZS=True,SE_ADT_LITR_ZS=True,SE_XPD_TOTL_GD_ZS=True,SG_VAW_BURN_ZS=True,SH_DYN_AIDS_ZS=True,SH_DYN_MORT=True,SH_MED_PHYS_ZS=True,SH_TBS_PREV=True,SH_XPD_PCAP=True,SL_EMP_TOTL_SP_ZS=True,SL_TLF_SECO_ZS=True,SL_TLF_TOTL_IN=True,SN_ITK_DEFC_ZS=True,SP_POP_DPND=True,TM_TAX_MANF_SM_FN_ZS=True,UIS_EA_1_AG25T99=True,UIS_EA_1T6_AG25T99=True,UIS_EA_2_AG25T99=True,UIS_EA_2T6_AG25T99=True,UIS_EA_3_AG25T99=True,UIS_EA_3T6_AG25T99=True,UIS_EA_4_AG25T99=True,UIS_EA_4T6_AG25T99=True,UIS_EA_5_AG25T99=True,UIS_EA_5T8_AG25T99=True,UIS_EA_6_AG25T99=True,UIS_EA_6T8_AG25T99=True,UIS_EA_7_AG25T99=True,UIS_EA_7T8_AG25T99=True,UIS_EA_8_AG25T99=True,UIS_PTRHC_2=True,UIS_PTRHC_3=True,UIS_PTRHC_56=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="209" y="222" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_6a7646b5fa0b436aa0182f31081f69f2_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="210" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Country Name" action="GroupBy" rename="Country Name" />
+                <SummarizeField field="Long Name" action="CountNull" rename="CountNull_Long Name" />
+                <SummarizeField field="Table Name" action="CountNull" rename="CountNull_Table Name" />
+                <SummarizeField field="BAR_SCHL_1519" action="CountNull" rename="CountNull_BAR_SCHL_1519" />
+                <SummarizeField field="BAR_SCHL_1519_FE" action="CountNull" rename="CountNull_BAR_SCHL_1519_FE" />
+                <SummarizeField field="BAR_SCHL_15UP" action="CountNull" rename="CountNull_BAR_SCHL_15UP" />
+                <SummarizeField field="BAR_SCHL_15UP_FE" action="CountNull" rename="CountNull_BAR_SCHL_15UP_FE" />
+                <SummarizeField field="BAR_SCHL_2024" action="CountNull" rename="CountNull_BAR_SCHL_2024" />
+                <SummarizeField field="BAR_SCHL_2024_FE" action="CountNull" rename="CountNull_BAR_SCHL_2024_FE" />
+                <SummarizeField field="BAR_SCHL_2529" action="CountNull" rename="CountNull_BAR_SCHL_2529" />
+                <SummarizeField field="BAR_SCHL_2529_FE" action="CountNull" rename="CountNull_BAR_SCHL_2529_FE" />
+                <SummarizeField field="BAR_SCHL_25UP" action="CountNull" rename="CountNull_BAR_SCHL_25UP" />
+                <SummarizeField field="BAR_SCHL_25UP_FE" action="CountNull" rename="CountNull_BAR_SCHL_25UP_FE" />
+                <SummarizeField field="BAR_SCHL_3034" action="CountNull" rename="CountNull_BAR_SCHL_3034" />
+                <SummarizeField field="BAR_SCHL_3034_FE" action="CountNull" rename="CountNull_BAR_SCHL_3034_FE" />
+                <SummarizeField field="BAR_SCHL_3539" action="CountNull" rename="CountNull_BAR_SCHL_3539" />
+                <SummarizeField field="BAR_SCHL_3539_FE" action="CountNull" rename="CountNull_BAR_SCHL_3539_FE" />
+                <SummarizeField field="BAR_SCHL_4044" action="CountNull" rename="CountNull_BAR_SCHL_4044" />
+                <SummarizeField field="BAR_SCHL_4044_FE" action="CountNull" rename="CountNull_BAR_SCHL_4044_FE" />
+                <SummarizeField field="BAR_SCHL_4549" action="CountNull" rename="CountNull_BAR_SCHL_4549" />
+                <SummarizeField field="BAR_SCHL_4549_FE" action="CountNull" rename="CountNull_BAR_SCHL_4549_FE" />
+                <SummarizeField field="BAR_SCHL_5054" action="CountNull" rename="CountNull_BAR_SCHL_5054" />
+                <SummarizeField field="BAR_SCHL_5054_FE" action="CountNull" rename="CountNull_BAR_SCHL_5054_FE" />
+                <SummarizeField field="BAR_SCHL_5559" action="CountNull" rename="CountNull_BAR_SCHL_5559" />
+                <SummarizeField field="BAR_SCHL_5559_FE" action="CountNull" rename="CountNull_BAR_SCHL_5559_FE" />
+                <SummarizeField field="BAR_SCHL_6064" action="CountNull" rename="CountNull_BAR_SCHL_6064" />
+                <SummarizeField field="BAR_SCHL_6064_FE" action="CountNull" rename="CountNull_BAR_SCHL_6064_FE" />
+                <SummarizeField field="BAR_SCHL_6569" action="CountNull" rename="CountNull_BAR_SCHL_6569" />
+                <SummarizeField field="BAR_SCHL_6569_FE" action="CountNull" rename="CountNull_BAR_SCHL_6569_FE" />
+                <SummarizeField field="BAR_SCHL_7074" action="CountNull" rename="CountNull_BAR_SCHL_7074" />
+                <SummarizeField field="BAR_SCHL_7074_FE" action="CountNull" rename="CountNull_BAR_SCHL_7074_FE" />
+                <SummarizeField field="BAR_SCHL_75UP" action="CountNull" rename="CountNull_BAR_SCHL_75UP" />
+                <SummarizeField field="BAR_SCHL_75UP_FE" action="CountNull" rename="CountNull_BAR_SCHL_75UP_FE" />
+                <SummarizeField field="EG_ELC_ACCS_ZS" action="CountNull" rename="CountNull_EG_ELC_ACCS_ZS" />
+                <SummarizeField field="EN_POP_SLUM_UR_ZS" action="CountNull" rename="CountNull_EN_POP_SLUM_UR_ZS" />
+                <SummarizeField field="FB_ATM_TOTL_P5" action="CountNull" rename="CountNull_FB_ATM_TOTL_P5" />
+                <SummarizeField field="IC_ELC_TIME" action="CountNull" rename="CountNull_IC_ELC_TIME" />
+                <SummarizeField field="IC_FRM_ISOC_ZS" action="CountNull" rename="CountNull_IC_FRM_ISOC_ZS" />
+                <SummarizeField field="IC_TAX_TOTL_CP_ZS" action="CountNull" rename="CountNull_IC_TAX_TOTL_CP_ZS" />
+                <SummarizeField field="IQ_WEF_PORT_XQ" action="CountNull" rename="CountNull_IQ_WEF_PORT_XQ" />
+                <SummarizeField field="IT_NET_USER_P2" action="CountNull" rename="CountNull_IT_NET_USER_P2" />
+                <SummarizeField field="SE_ADT_1524_LT_FE_ZS" action="CountNull" rename="CountNull_SE_ADT_1524_LT_FE_ZS" />
+                <SummarizeField field="SE_ADT_1524_LT_FM_ZS" action="CountNull" rename="CountNull_SE_ADT_1524_LT_FM_ZS" />
+                <SummarizeField field="SE_ADT_1524_LT_MA_ZS" action="CountNull" rename="CountNull_SE_ADT_1524_LT_MA_ZS" />
+                <SummarizeField field="SE_ADT_1524_LT_ZS" action="CountNull" rename="CountNull_SE_ADT_1524_LT_ZS" />
+                <SummarizeField field="SE_ADT_LITR_FE_ZS" action="CountNull" rename="CountNull_SE_ADT_LITR_FE_ZS" />
+                <SummarizeField field="SE_ADT_LITR_MA_ZS" action="CountNull" rename="CountNull_SE_ADT_LITR_MA_ZS" />
+                <SummarizeField field="SE_ADT_LITR_ZS" action="CountNull" rename="CountNull_SE_ADT_LITR_ZS" />
+                <SummarizeField field="SE_XPD_TOTL_GD_ZS" action="CountNull" rename="CountNull_SE_XPD_TOTL_GD_ZS" />
+                <SummarizeField field="SG_VAW_BURN_ZS" action="CountNull" rename="CountNull_SG_VAW_BURN_ZS" />
+                <SummarizeField field="SH_DYN_AIDS_ZS" action="CountNull" rename="CountNull_SH_DYN_AIDS_ZS" />
+                <SummarizeField field="SH_DYN_MORT" action="CountNull" rename="CountNull_SH_DYN_MORT" />
+                <SummarizeField field="SH_MED_PHYS_ZS" action="CountNull" rename="CountNull_SH_MED_PHYS_ZS" />
+                <SummarizeField field="SH_TBS_PREV" action="CountNull" rename="CountNull_SH_TBS_PREV" />
+                <SummarizeField field="SH_XPD_PCAP" action="CountNull" rename="CountNull_SH_XPD_PCAP" />
+                <SummarizeField field="SL_EMP_TOTL_SP_ZS" action="CountNull" rename="CountNull_SL_EMP_TOTL_SP_ZS" />
+                <SummarizeField field="SL_TLF_SECO_ZS" action="CountNull" rename="CountNull_SL_TLF_SECO_ZS" />
+                <SummarizeField field="SL_TLF_TOTL_IN" action="CountNull" rename="CountNull_SL_TLF_TOTL_IN" />
+                <SummarizeField field="SN_ITK_DEFC_ZS" action="CountNull" rename="CountNull_SN_ITK_DEFC_ZS" />
+                <SummarizeField field="SP_POP_DPND" action="CountNull" rename="CountNull_SP_POP_DPND" />
+                <SummarizeField field="TM_TAX_MANF_SM_FN_ZS" action="CountNull" rename="CountNull_TM_TAX_MANF_SM_FN_ZS" />
+                <SummarizeField field="UIS_EA_1_AG25T99" action="CountNull" rename="CountNull_UIS_EA_1_AG25T99" />
+                <SummarizeField field="UIS_EA_1T6_AG25T99" action="CountNull" rename="CountNull_UIS_EA_1T6_AG25T99" />
+                <SummarizeField field="UIS_EA_2_AG25T99" action="CountNull" rename="CountNull_UIS_EA_2_AG25T99" />
+                <SummarizeField field="UIS_EA_2T6_AG25T99" action="CountNull" rename="CountNull_UIS_EA_2T6_AG25T99" />
+                <SummarizeField field="UIS_EA_3_AG25T99" action="CountNull" rename="CountNull_UIS_EA_3_AG25T99" />
+                <SummarizeField field="UIS_EA_3T6_AG25T99" action="CountNull" rename="CountNull_UIS_EA_3T6_AG25T99" />
+                <SummarizeField field="UIS_EA_4_AG25T99" action="CountNull" rename="CountNull_UIS_EA_4_AG25T99" />
+                <SummarizeField field="UIS_EA_4T6_AG25T99" action="CountNull" rename="CountNull_UIS_EA_4T6_AG25T99" />
+                <SummarizeField field="UIS_EA_5_AG25T99" action="CountNull" rename="CountNull_UIS_EA_5_AG25T99" />
+                <SummarizeField field="UIS_EA_5T8_AG25T99" action="CountNull" rename="CountNull_UIS_EA_5T8_AG25T99" />
+                <SummarizeField field="UIS_EA_6_AG25T99" action="CountNull" rename="CountNull_UIS_EA_6_AG25T99" />
+                <SummarizeField field="UIS_EA_6T8_AG25T99" action="CountNull" rename="CountNull_UIS_EA_6T8_AG25T99" />
+                <SummarizeField field="UIS_EA_7_AG25T99" action="CountNull" rename="CountNull_UIS_EA_7_AG25T99" />
+                <SummarizeField field="UIS_EA_7T8_AG25T99" action="CountNull" rename="CountNull_UIS_EA_7T8_AG25T99" />
+                <SummarizeField field="UIS_EA_8_AG25T99" action="CountNull" rename="CountNull_UIS_EA_8_AG25T99" />
+                <SummarizeField field="UIS_PTRHC_2" action="CountNull" rename="CountNull_UIS_PTRHC_2" />
+                <SummarizeField field="UIS_PTRHC_3" action="CountNull" rename="CountNull_UIS_PTRHC_3" />
+                <SummarizeField field="UIS_PTRHC_56" action="CountNull" rename="CountNull_UIS_PTRHC_56" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="306" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="Country Name" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Country Name" selected="False" />
+                <Field field="CountNull_Long Name" selected="True" />
+                <Field field="CountNull_Table Name" selected="True" />
+                <Field field="CountNull_BAR_SCHL_1519" selected="True" />
+                <Field field="CountNull_BAR_SCHL_1519_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_15UP" selected="True" />
+                <Field field="CountNull_BAR_SCHL_15UP_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_2024" selected="True" />
+                <Field field="CountNull_BAR_SCHL_2024_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_2529" selected="True" />
+                <Field field="CountNull_BAR_SCHL_2529_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_25UP" selected="True" />
+                <Field field="CountNull_BAR_SCHL_25UP_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_3034" selected="True" />
+                <Field field="CountNull_BAR_SCHL_3034_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_3539" selected="True" />
+                <Field field="CountNull_BAR_SCHL_3539_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_4044" selected="True" />
+                <Field field="CountNull_BAR_SCHL_4044_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_4549" selected="True" />
+                <Field field="CountNull_BAR_SCHL_4549_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_5054" selected="True" />
+                <Field field="CountNull_BAR_SCHL_5054_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_5559" selected="True" />
+                <Field field="CountNull_BAR_SCHL_5559_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_6064" selected="True" />
+                <Field field="CountNull_BAR_SCHL_6064_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_6569" selected="True" />
+                <Field field="CountNull_BAR_SCHL_6569_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_7074" selected="True" />
+                <Field field="CountNull_BAR_SCHL_7074_FE" selected="True" />
+                <Field field="CountNull_BAR_SCHL_75UP" selected="True" />
+                <Field field="CountNull_BAR_SCHL_75UP_FE" selected="True" />
+                <Field field="CountNull_EG_ELC_ACCS_ZS" selected="True" />
+                <Field field="CountNull_EN_POP_SLUM_UR_ZS" selected="True" />
+                <Field field="CountNull_FB_ATM_TOTL_P5" selected="True" />
+                <Field field="CountNull_IC_ELC_TIME" selected="True" />
+                <Field field="CountNull_IC_FRM_ISOC_ZS" selected="True" />
+                <Field field="CountNull_IC_TAX_TOTL_CP_ZS" selected="True" />
+                <Field field="CountNull_IQ_WEF_PORT_XQ" selected="True" />
+                <Field field="CountNull_IT_NET_USER_P2" selected="True" />
+                <Field field="CountNull_SE_ADT_1524_LT_FE_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_1524_LT_FM_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_1524_LT_MA_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_1524_LT_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_LITR_FE_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_LITR_MA_ZS" selected="True" />
+                <Field field="CountNull_SE_ADT_LITR_ZS" selected="True" />
+                <Field field="CountNull_SE_XPD_TOTL_GD_ZS" selected="True" />
+                <Field field="CountNull_SG_VAW_BURN_ZS" selected="True" />
+                <Field field="CountNull_SH_DYN_AIDS_ZS" selected="True" />
+                <Field field="CountNull_SH_DYN_MORT" selected="True" />
+                <Field field="CountNull_SH_MED_PHYS_ZS" selected="True" />
+                <Field field="CountNull_SH_TBS_PREV" selected="True" />
+                <Field field="CountNull_SH_XPD_PCAP" selected="True" />
+                <Field field="CountNull_SL_EMP_TOTL_SP_ZS" selected="True" />
+                <Field field="CountNull_SL_TLF_SECO_ZS" selected="True" />
+                <Field field="CountNull_SL_TLF_TOTL_IN" selected="True" />
+                <Field field="CountNull_SN_ITK_DEFC_ZS" selected="True" />
+                <Field field="CountNull_SP_POP_DPND" selected="True" />
+                <Field field="CountNull_TM_TAX_MANF_SM_FN_ZS" selected="True" />
+                <Field field="CountNull_UIS_EA_1_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_1T6_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_2_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_2T6_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_3_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_3T6_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_4_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_4T6_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_5_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_5T8_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_6_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_6T8_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_7_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_7T8_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_EA_8_AG25T99" selected="True" />
+                <Field field="CountNull_UIS_PTRHC_2" selected="True" />
+                <Field field="CountNull_UIS_PTRHC_3" selected="True" />
+                <Field field="CountNull_UIS_PTRHC_56" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="402" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="Country Name" action="GroupBy" rename="Country Name" />
+                <SummarizeField field="Value" action="Sum" rename="Sum_Value" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="498" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="Sum_Value" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Sum_Value - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="606" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Country Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Country Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Country Name" selected="False" rename="Right_Country Name" input="Right_" />
+                    <SelectField field="Right_Sum_Value" selected="True" rename="Null_Sum_Value" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="702" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&lt;=</Operator>
+                <Field>Null_Sum_Value</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2021-11-21 03:42:49</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>25</Operand>
+                  <StartDate>2021-11-21 03:42:49</StartDate>
+                  <EndDate>2021-11-21 03:42:49</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Null_Sum_Value] &lt;= 25</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="798" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Country Code" selected="True" rename="Country_Code" />
+                <SelectField field="Country Name" selected="True" rename="Country_Name" />
+                <SelectField field="Long Name" selected="True" rename="Country_LongName" />
+                <SelectField field="Table Name" selected="True" rename="Table_Name" />
+                <SelectField field="BAR_SCHL_1519" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_1519_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_15UP" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_15UP_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_2024" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_2024_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_2529" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_2529_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_25UP" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_25UP_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_3034" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_3034_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_3539" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_3539_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_4044" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_4044_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_4549" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_4549_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_5054" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_5054_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_5559" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_5559_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_6064" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_6064_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_6569" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_6569_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_7074" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_7074_FE" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_75UP" selected="True" type="Double" size="8" />
+                <SelectField field="BAR_SCHL_75UP_FE" selected="True" type="Double" size="8" />
+                <SelectField field="EG_ELC_ACCS_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="EN_POP_SLUM_UR_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="FB_ATM_TOTL_P5" selected="True" type="Double" size="8" />
+                <SelectField field="IC_ELC_TIME" selected="True" type="Double" size="8" />
+                <SelectField field="IC_FRM_ISOC_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="IC_TAX_TOTL_CP_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="IQ_WEF_PORT_XQ" selected="True" type="Double" size="8" />
+                <SelectField field="IT_NET_USER_P2" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_1524_LT_FE_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_1524_LT_FM_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_1524_LT_MA_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_1524_LT_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_LITR_FE_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_LITR_MA_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_ADT_LITR_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SE_XPD_TOTL_GD_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SG_VAW_BURN_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SH_DYN_AIDS_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SH_DYN_MORT" selected="True" type="Double" size="8" />
+                <SelectField field="SH_MED_PHYS_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SH_TBS_PREV" selected="True" type="Double" size="8" />
+                <SelectField field="SH_XPD_PCAP" selected="True" type="Double" size="8" />
+                <SelectField field="SL_EMP_TOTL_SP_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SL_TLF_SECO_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SL_TLF_TOTL_IN" selected="True" type="Double" size="8" />
+                <SelectField field="SN_ITK_DEFC_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="SP_POP_DPND" selected="True" type="Double" size="8" />
+                <SelectField field="TM_TAX_MANF_SM_FN_ZS" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_1_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_1T6_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_2_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_2T6_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_3_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_3T6_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_4_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_4T6_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_5_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_5T8_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_6_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_6T8_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_7_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_7T8_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_EA_8_AG25T99" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_PTRHC_2" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_PTRHC_3" selected="True" type="Double" size="8" />
+                <SelectField field="UIS_PTRHC_56" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1050" y="49" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\Country_Clean_Data.xlsx|||Country Clean Data</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Country_Clean_Data.xlsx
+Query=Country Clean Data</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings>
+            <Position x="894" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="listbox Select Incoming Fields">"BAR_SCHL_1519","BAR_SCHL_1519_FE","BAR_SCHL_15UP","BAR_SCHL_15UP_FE","BAR_SCHL_2024","BAR_SCHL_2024_FE","BAR_SCHL_2529","BAR_SCHL_2529_FE","BAR_SCHL_25UP","BAR_SCHL_25UP_FE","BAR_SCHL_3034","BAR_SCHL_3034_FE","BAR_SCHL_3539","BAR_SCHL_3539_FE","BAR_SCHL_4044","BAR_SCHL_4044_FE","BAR_SCHL_4549","BAR_SCHL_4549_FE","BAR_SCHL_5054","BAR_SCHL_5054_FE","BAR_SCHL_5559","BAR_SCHL_5559_FE","BAR_SCHL_6064","BAR_SCHL_6064_FE","BAR_SCHL_6569","BAR_SCHL_6569_FE","BAR_SCHL_7074","BAR_SCHL_7074_FE","BAR_SCHL_75UP","BAR_SCHL_75UP_FE","EG_ELC_ACCS_ZS","EN_POP_SLUM_UR_ZS","FB_ATM_TOTL_P5","IC_ELC_TIME","IC_FRM_ISOC_ZS","IC_TAX_TOTL_CP_ZS","IQ_WEF_PORT_XQ","SE_ADT_1524_LT_FE_ZS","SE_ADT_1524_LT_FM_ZS","SE_ADT_1524_LT_MA_ZS","SE_ADT_1524_LT_ZS","SE_ADT_LITR_FE_ZS","SE_ADT_LITR_MA_ZS","SE_ADT_LITR_ZS","SE_XPD_TOTL_GD_ZS","SL_EMP_TOTL_SP_ZS","SL_TLF_SECO_ZS","SL_TLF_TOTL_IN","TM_TAX_MANF_SM_FN_ZS","UIS_EA_1_AG25T99","UIS_EA_1T6_AG25T99","UIS_EA_2_AG25T99","UIS_EA_2T6_AG25T99","UIS_EA_3_AG25T99","UIS_EA_3T6_AG25T99","UIS_EA_4_AG25T99","UIS_EA_4T6_AG25T99","UIS_EA_5_AG25T99","UIS_EA_5T8_AG25T99","UIS_EA_6_AG25T99","UIS_EA_6T8_AG25T99","UIS_EA_7_AG25T99","UIS_EA_7T8_AG25T99","UIS_EA_8_AG25T99","UIS_PTRHC_2","UIS_PTRHC_3","UIS_PTRHC_56"</Value>
+              <Value name="radio Null Value">True</Value>
+              <Value name="radio User Specified Replace From Value">False</Value>
+              <Value name="updown User Replace Value">0.00000</Value>
+              <Value name="radio Mean">False</Value>
+              <Value name="radio Median">False</Value>
+              <Value name="radio Mode">False</Value>
+              <Value name="radio User Specified Replace With Value">True</Value>
+              <Value name="updown User Replace With Value">0.00000</Value>
+              <Value name="checkbox Impute Indicator">False</Value>
+              <Value name="checkbox Imputed Values Separate Field">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="254" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="Country_Name" size="254" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="Country_LongName" size="254" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="Table_Name" size="254" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="BAR_SCHL_1519" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_1519_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_15UP" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_15UP_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_2024" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_2024_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_2529" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_2529_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_25UP" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_25UP_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_3034" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_3034_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_3539" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_3539_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_4044" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_4044_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_4549" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_4549_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_5054" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_5054_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_5559" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_5559_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_6064" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_6064_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_6569" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_6569_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_7074" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_7074_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_75UP" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="BAR_SCHL_75UP_FE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="EG_ELC_ACCS_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IC_ELC_TIME" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="IT_NET_USER_P2" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_1524_LT_FE_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_1524_LT_FM_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_1524_LT_MA_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_1524_LT_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_LITR_FE_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_LITR_MA_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_ADT_LITR_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SG_VAW_BURN_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SH_DYN_AIDS_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SH_DYN_MORT" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SH_MED_PHYS_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SH_TBS_PREV" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SH_XPD_PCAP" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SN_ITK_DEFC_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="SP_POP_DPND" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_1_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_1T6_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_2_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_2T6_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_3_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_3T6_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_4_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_4T6_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_5_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_5T8_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_6_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_6T8_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_7_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_7T8_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_EA_8_AG25T99" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_PTRHC_2" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_PTRHC_3" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="UIS_PTRHC_56" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="Null_Sum_Value" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Imputation_v3.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="2549" y="317" width="253" height="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Final Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#00ff80" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2574" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Country_Code" selected="True" rename="Right_Country_Code" input="Right_" />
+                    <SelectField field="Right_Country_Name" selected="False" input="Right_" />
+                    <SelectField field="Right_Country_LongName" selected="False" input="Right_" />
+                    <SelectField field="Right_Table_Name" selected="False" input="Right_" />
+                    <SelectField field="Right_EG_ELC_ACCS_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_EN_POP_SLUM_UR_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_FB_ATM_TOTL_P5" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_ELC_TIME" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_FRM_ISOC_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_TAX_TOTL_CP_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_IQ_WEF_PORT_XQ" selected="False" input="Right_" />
+                    <SelectField field="Right_SE_XPD_TOTL_GD_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_EMP_TOTL_SP_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_TLF_SECO_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_TLF_TOTL_IN" selected="False" input="Right_" />
+                    <SelectField field="Right_TM_TAX_MANF_SM_FN_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_UIS_PTRHC_2" selected="False" input="Right_" />
+                    <SelectField field="Right_UIS_PTRHC_3" selected="False" input="Right_" />
+                    <SelectField field="Right_Field1" selected="False" rename="Right_Field1" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2670" y="366" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\Country_3_Clusters_MagedSolution.xlsx|||Country 3 Clusters (Maged)</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Country_3_Clusters_MagedSolution.xlsx
+Query=Country 3 Clusters (Maged)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="2574" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Country_Code" selected="True" rename="Right_Country_Code" input="Right_" />
+                    <SelectField field="Right_Country_Name" selected="False" input="Right_" />
+                    <SelectField field="Right_Country_LongName" selected="False" input="Right_" />
+                    <SelectField field="Right_Table_Name" selected="False" input="Right_" />
+                    <SelectField field="Right_EG_ELC_ACCS_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_EN_POP_SLUM_UR_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_FB_ATM_TOTL_P5" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_ELC_TIME" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_FRM_ISOC_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_IC_TAX_TOTL_CP_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_IQ_WEF_PORT_XQ" selected="False" input="Right_" />
+                    <SelectField field="Right_SE_XPD_TOTL_GD_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_EMP_TOTL_SP_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_TLF_SECO_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_SL_TLF_TOTL_IN" selected="False" input="Right_" />
+                    <SelectField field="Right_TM_TAX_MANF_SM_FN_ZS" selected="False" input="Right_" />
+                    <SelectField field="Right_UIS_PTRHC_2" selected="False" input="Right_" />
+                    <SelectField field="Right_UIS_PTRHC_3" selected="False" input="Right_" />
+                    <SelectField field="Right_Field1" selected="False" rename="Right_Field1" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2670" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="25">F:\Maged\Study\Online Courses\Udacity\Bertelsmann\Phase 2\Classroom Material\7. Segmentation and Clustering\L7_Practice Project_Segmentation\Country_4_Clusters_MagedSolution.xlsx|||Country 4 Clusters (Maged)</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <PreserveFormat>False</PreserveFormat>
+                <SkipFieldNames>False</SkipFieldNames>
+                <OutputOption>RemoveFile</OutputOption>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Country_4_Clusters_MagedSolution.xlsx
+Query=Country 4 Clusters (Maged)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1985" y="545" width="361" height="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Clustering Models</Caption>
+          <Style TextColor="#314c4a" FillColor="#00ffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="33">
+          <GuiSettings>
+            <Position x="2010" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model name">Country_3 Clusters</Value>
+              <Value name="the fields">EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + AvgEdu_PC1 + AvgEdu_PC2 + Population_PC1 + Population_PC2 + Population_PC3 + Population_PC4 + Literacy_PC1</Value>
+              <Value name="standardize">True</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">False</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">True</Value>
+              <Value name="num clus">3</Value>
+              <Value name="num seeds">10</Value>
+              <Value name="plot points">True</Value>
+              <Value name="plot centroids">False</Value>
+              <Value name="max comp">2</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+                <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings>
+            <Position x="2010" y="726" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="model name">Country_4 Clusters</Value>
+              <Value name="the fields">EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + AvgEdu_PC1 + AvgEdu_PC2 + Population_PC1 + Population_PC2 + Population_PC3 + Population_PC4 + Literacy_PC1</Value>
+              <Value name="standardize">True</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">False</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">True</Value>
+              <Value name="num clus">4</Value>
+              <Value name="num seeds">10</Value>
+              <Value name="plot points">True</Value>
+              <Value name="plot centroids">False</Value>
+              <Value name="max comp">2</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="out" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+                <Field name="Sum_Dists" size="1073741823" source="R-DATA:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Cluster_Analysis.yxmc" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2106" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_a5eb0b4033824e9e8762dba78235ad45_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2106" y="738" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_9e68c56bd5244d3d9cb4a2972d496ae4_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings>
+            <Position x="2262" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="clus name">Contry 3 Clusters</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_LongName" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Table_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+                <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+                <Field name="AvgEdu_PC1" source="R-DATA:" type="Double" />
+                <Field name="AvgEdu_PC2" source="R-DATA:" type="Double" />
+                <Field name="Population_PC1" source="R-DATA:" type="Double" />
+                <Field name="Population_PC2" source="R-DATA:" type="Double" />
+                <Field name="Population_PC3" source="R-DATA:" type="Double" />
+                <Field name="Population_PC4" source="R-DATA:" type="Double" />
+                <Field name="Literacy_PC1" source="R-DATA:" type="Double" />
+                <Field name="Contry_3_Clusters" source="R-DATA:" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings>
+            <Position x="2262" y="690" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="clus name">Contry 4 Clusters</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_LongName" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Table_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+                <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+                <Field name="AvgEdu_PC1" source="R-DATA:" type="Double" />
+                <Field name="AvgEdu_PC2" source="R-DATA:" type="Double" />
+                <Field name="Population_PC1" source="R-DATA:" type="Double" />
+                <Field name="Population_PC2" source="R-DATA:" type="Double" />
+                <Field name="Population_PC3" source="R-DATA:" type="Double" />
+                <Field name="Population_PC4" source="R-DATA:" type="Double" />
+                <Field name="Literacy_PC1" source="R-DATA:" type="Double" />
+                <Field name="Contry_4_Clusters" source="R-DATA:" type="Int32" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Append_Cluster.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1781" y="5" width="412" height="361" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Determing The Number of Clusters (K-Centriod Diagnostics)</Caption>
+          <Style TextColor="#314c4a" FillColor="#ff9c6c" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1806" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="Country_Code" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Country_Code" selected="True" input="Left_" />
+                    <SelectField field="Left_Country_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_Country_LongName" selected="True" input="Left_" />
+                    <SelectField field="Left_Table_Name" selected="True" input="Left_" />
+                    <SelectField field="Left_EG_ELC_ACCS_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_EN_POP_SLUM_UR_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_FB_ATM_TOTL_P5" selected="True" input="Left_" />
+                    <SelectField field="Left_IC_ELC_TIME" selected="True" input="Left_" />
+                    <SelectField field="Left_IC_FRM_ISOC_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_IC_TAX_TOTL_CP_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_IQ_WEF_PORT_XQ" selected="True" input="Left_" />
+                    <SelectField field="Left_SE_XPD_TOTL_GD_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_SL_EMP_TOTL_SP_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_SL_TLF_SECO_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_SL_TLF_TOTL_IN" selected="True" input="Left_" />
+                    <SelectField field="Left_TM_TAX_MANF_SM_FN_ZS" selected="True" input="Left_" />
+                    <SelectField field="Left_UIS_PTRHC_2" selected="True" input="Left_" />
+                    <SelectField field="Left_UIS_PTRHC_3" selected="True" input="Left_" />
+                    <SelectField field="Right_Country_Code" selected="False" rename="Right_Country_Code" input="Right_" />
+                    <SelectField field="Right_Country_Name" selected="False" rename="Right_Country_Name" input="Right_" />
+                    <SelectField field="Right_Country_LongName" selected="False" rename="Right_Country_LongName" input="Right_" />
+                    <SelectField field="Right_Table_Name" selected="False" rename="Right_Table_Name" input="Right_" />
+                    <SelectField field="Right_AvgEdu_PC1" selected="True" input="Right_" />
+                    <SelectField field="Right_AvgEdu_PC2" selected="True" input="Right_" />
+                    <SelectField field="Right_Population_PC1" selected="True" input="Right_" />
+                    <SelectField field="Right_Population_PC2" selected="True" input="Right_" />
+                    <SelectField field="Right_Population_PC3" selected="True" input="Right_" />
+                    <SelectField field="Right_Population_PC4" selected="True" input="Right_" />
+                    <SelectField field="Right_Literacy_PC1" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2034" y="78" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_eb56f0fdcae2481199403b49122b4515_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2034" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_317394226aa44f83a015c50b91ed7cb3_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2046" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_2a24a7e3d4dd4181b4424551a68824e3_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings>
+            <Position x="1926" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="the fields">EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + AvgEdu_PC1 + AvgEdu_PC2 + Population_PC1 + Population_PC2 + Population_PC3 + Population_PC4 + Literacy_PC1</Value>
+              <Value name="standardize">True</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">False</Value>
+              <Value name="k-medians">True</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="min clus">2</Value>
+              <Value name="max clus">8</Value>
+              <Value name="bootstrap rep">50</Value>
+              <Value name="num seeds">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings>
+            <Position x="1926" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="the fields">EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + AvgEdu_PC1 + AvgEdu_PC2 + Population_PC1 + Population_PC2 + Population_PC3 + Population_PC4 + Literacy_PC1</Value>
+              <Value name="standardize">True</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">True</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">False</Value>
+              <Value name="min clus">2</Value>
+              <Value name="max clus">8</Value>
+              <Value name="bootstrap rep">50</Value>
+              <Value name="num seeds">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings>
+            <Position x="1926" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="the fields">EG_ELC_ACCS_ZS + EN_POP_SLUM_UR_ZS + FB_ATM_TOTL_P5 + IC_ELC_TIME + IC_FRM_ISOC_ZS + IC_TAX_TOTL_CP_ZS + IQ_WEF_PORT_XQ + SE_XPD_TOTL_GD_ZS + SL_EMP_TOTL_SP_ZS + SL_TLF_SECO_ZS + SL_TLF_TOTL_IN + TM_TAX_MANF_SM_FN_ZS + UIS_PTRHC_2 + UIS_PTRHC_3 + AvgEdu_PC1 + AvgEdu_PC2 + Population_PC1 + Population_PC2 + Population_PC3 + Population_PC4 + Literacy_PC1</Value>
+              <Value name="standardize">True</Value>
+              <Value name="z score">True</Value>
+              <Value name="unit interval">False</Value>
+              <Value name="k-means">False</Value>
+              <Value name="k-medians">False</Value>
+              <Value name="neural gas">True</Value>
+              <Value name="min clus">2</Value>
+              <Value name="max clus">8</Value>
+              <Value name="bootstrap rep">50</Value>
+              <Value name="num seeds">3</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1265" y="77" width="205" height="481" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>PCA</Caption>
+          <Style TextColor="#314c4a" FillColor="#80ff80" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="15">
+          <GuiSettings>
+            <Position x="1290" y="126" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">BAR_SCHL_1519 + BAR_SCHL_1519_FE + BAR_SCHL_15UP + BAR_SCHL_15UP_FE + BAR_SCHL_2024 + BAR_SCHL_2024_FE + BAR_SCHL_2529 + BAR_SCHL_2529_FE + BAR_SCHL_25UP + BAR_SCHL_25UP_FE + BAR_SCHL_3034 + BAR_SCHL_3034_FE + BAR_SCHL_3539 + BAR_SCHL_3539_FE + BAR_SCHL_4044 + BAR_SCHL_4044_FE + BAR_SCHL_4549 + BAR_SCHL_4549_FE + BAR_SCHL_5054 + BAR_SCHL_5054_FE + BAR_SCHL_5559 + BAR_SCHL_5559_FE + BAR_SCHL_6064 + BAR_SCHL_6064_FE + BAR_SCHL_6569 + BAR_SCHL_6569_FE + BAR_SCHL_7074 + BAR_SCHL_7074_FE + BAR_SCHL_75UP + BAR_SCHL_75UP_FE</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">4</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Principal Components (Average Years of Schooling)</Name>
+              <AnnotationText>Consolidating "Average Years of Schooling"</AnnotationText>
+              <DefaultAnnotationText>Consolidating "Average Years of Schooling"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_LongName" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Table_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="BAR_SCHL_1519" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_1519_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP_FE" source="R-DATA:" type="Double" />
+                <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+                <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+                <Field name="IT_NET_USER_P2" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FM_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+                <Field name="SG_VAW_BURN_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_AIDS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_MORT" source="R-DATA:" type="Double" />
+                <Field name="SH_MED_PHYS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_TBS_PREV" source="R-DATA:" type="Double" />
+                <Field name="SH_XPD_PCAP" source="R-DATA:" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+                <Field name="SN_ITK_DEFC_ZS" source="R-DATA:" type="Double" />
+                <Field name="SP_POP_DPND" source="R-DATA:" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_56" source="R-DATA:" type="Double" />
+                <Field name="Null_Sum_Value" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+                <Field name="PC4" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1386" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_46a11c19a1364cc1a529a6381f4c7b69_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings>
+            <Position x="1290" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">UIS_EA_1_AG25T99 + UIS_EA_1T6_AG25T99 + UIS_EA_2_AG25T99 + UIS_EA_2T6_AG25T99 + UIS_EA_3_AG25T99 + UIS_EA_3T6_AG25T99 + UIS_EA_4_AG25T99 + UIS_EA_4T6_AG25T99 + UIS_EA_5_AG25T99 + UIS_EA_5T8_AG25T99 + UIS_EA_6_AG25T99 + UIS_EA_6T8_AG25T99 + UIS_EA_7_AG25T99 + UIS_EA_7T8_AG25T99 + UIS_EA_8_AG25T99</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">4</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Population &gt; 25 with degrees</Name>
+              <AnnotationText>Consolidating "Pop &gt; 25 with degrees"</AnnotationText>
+              <DefaultAnnotationText>Consolidating "Pop &gt; 25 with degrees"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_LongName" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Table_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="BAR_SCHL_1519" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_1519_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP_FE" source="R-DATA:" type="Double" />
+                <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+                <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+                <Field name="IT_NET_USER_P2" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FM_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+                <Field name="SG_VAW_BURN_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_AIDS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_MORT" source="R-DATA:" type="Double" />
+                <Field name="SH_MED_PHYS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_TBS_PREV" source="R-DATA:" type="Double" />
+                <Field name="SH_XPD_PCAP" source="R-DATA:" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+                <Field name="SN_ITK_DEFC_ZS" source="R-DATA:" type="Double" />
+                <Field name="SP_POP_DPND" source="R-DATA:" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_56" source="R-DATA:" type="Double" />
+                <Field name="Null_Sum_Value" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+                <Field name="PC4" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1386" y="306" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_2475e930b681422bbbe4f7a64d8fa7d6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings>
+            <Position x="1290" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="fields">SE_ADT_1524_LT_FE_ZS + SE_ADT_1524_LT_FM_ZS + SE_ADT_1524_LT_MA_ZS + SE_ADT_1524_LT_ZS + SE_ADT_LITR_FE_ZS + SE_ADT_LITR_MA_ZS + SE_ADT_LITR_ZS</Value>
+              <Value name="scale">True</Value>
+              <Value name="max components">4</Value>
+              <Value name="append pc">True</Value>
+              <Value name="num pc">4</Value>
+              <Value name="inches">True</Value>
+              <Value name="in.w">5.50</Value>
+              <Value name="in.h">5.50</Value>
+              <Value name="centimeters">False</Value>
+              <Value name="cm.w">13.00</Value>
+              <Value name="cm.h">14.95</Value>
+              <Value name="graph.resolution">1x</Value>
+              <Value name="pointsize">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Literacy Rate</Name>
+              <AnnotationText>Consolidating "Literacy Rate"</AnnotationText>
+              <DefaultAnnotationText>Consolidating "Literacy Rate"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Country_Code" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Country_LongName" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="Table_Name" size="1073741823" source="R-DATA:" type="V_WString" />
+                <Field name="BAR_SCHL_1519" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_1519_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_15UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2024_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_2529_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_25UP_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3034_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_3539_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4044_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_4549_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5054_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_5559_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6064_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_6569_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_7074_FE" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP" source="R-DATA:" type="Double" />
+                <Field name="BAR_SCHL_75UP_FE" source="R-DATA:" type="Double" />
+                <Field name="EG_ELC_ACCS_ZS" source="R-DATA:" type="Double" />
+                <Field name="EN_POP_SLUM_UR_ZS" source="R-DATA:" type="Double" />
+                <Field name="FB_ATM_TOTL_P5" source="R-DATA:" type="Double" />
+                <Field name="IC_ELC_TIME" source="R-DATA:" type="Double" />
+                <Field name="IC_FRM_ISOC_ZS" source="R-DATA:" type="Double" />
+                <Field name="IC_TAX_TOTL_CP_ZS" source="R-DATA:" type="Double" />
+                <Field name="IQ_WEF_PORT_XQ" source="R-DATA:" type="Double" />
+                <Field name="IT_NET_USER_P2" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_FM_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_1524_LT_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_FE_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_MA_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_ADT_LITR_ZS" source="R-DATA:" type="Double" />
+                <Field name="SE_XPD_TOTL_GD_ZS" source="R-DATA:" type="Double" />
+                <Field name="SG_VAW_BURN_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_AIDS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_DYN_MORT" source="R-DATA:" type="Double" />
+                <Field name="SH_MED_PHYS_ZS" source="R-DATA:" type="Double" />
+                <Field name="SH_TBS_PREV" source="R-DATA:" type="Double" />
+                <Field name="SH_XPD_PCAP" source="R-DATA:" type="Double" />
+                <Field name="SL_EMP_TOTL_SP_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_SECO_ZS" source="R-DATA:" type="Double" />
+                <Field name="SL_TLF_TOTL_IN" source="R-DATA:" type="Double" />
+                <Field name="SN_ITK_DEFC_ZS" source="R-DATA:" type="Double" />
+                <Field name="SP_POP_DPND" source="R-DATA:" type="Double" />
+                <Field name="TM_TAX_MANF_SM_FN_ZS" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_1T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_2T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_3T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_4T6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_5T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_6T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_7T8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_EA_8_AG25T99" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_2" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_3" source="R-DATA:" type="Double" />
+                <Field name="UIS_PTRHC_56" source="R-DATA:" type="Double" />
+                <Field name="Null_Sum_Value" source="R-DATA:" type="Double" />
+                <Field name="PC1" source="R-DATA:" type="Double" />
+                <Field name="PC2" source="R-DATA:" type="Double" />
+                <Field name="PC3" source="R-DATA:" type="Double" />
+                <Field name="PC4" source="R-DATA:" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Reports">
+              <RecordInfo>
+                <Field name="Desc" size="64" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Report" size="1073741823" source="Report: (Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Principal_Components.yxmc" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1386" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\MAGEDB~1.HEN\AppData\Local\Temp\Engine_28656_64fe32779d3044f6b7da480feb9fe877_\Engine_16244_17519a3187b34d038f6accb3865ab958_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="15" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="17" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="19" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="50" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="50" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="52" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="52" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Join" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Join" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Reports" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="37" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="37" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Reports" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="38" Connection="Second Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="38" Connection="First Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="30" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="31" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="32" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="33" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="34" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Reports" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Reports" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Reports" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Reports" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Reports" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Reports" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Practice Project_Segmentation_MagedSolution</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
