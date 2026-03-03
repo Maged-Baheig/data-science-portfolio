@@ -255,8 +255,8 @@ A small bank experienced a sudden influx of **500 loan applications** due to a c
 | File | Description |
 |------|-------------|
 | README.md | This documentation file |
-| Creditworthiness_Report_2nd Submission_Maged.pdf | Detailed analysis report |
-| Creditworthiness_2nd_Submission_Maged.yxmd | Alteryx multi-model workflow |
+| Creditworthiness_Report_Submission_Maged.pdf | Detailed analysis report |
+| Creditworthiness_Submission_Maged.yxmd | Alteryx multi-model workflow |
 
 ---
 
