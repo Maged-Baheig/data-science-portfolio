@@ -150,6 +150,7 @@ Price = -5,269 + 8,413 × Carat + 158.1 × Cut + 454 × Clarity
 |------|-------------|
 | README.md | This documentation file |
 | P1_Predicting Diamonds Price_Maged Solution.xlsx | Excel analysis workbook |
+| P1_Predicting Diamonds Price_Maged Solution.yxmd | Alteryx visual workflow |
 | Predicting Diamond Prices Report_Maged Baheig.pdf | Detailed analysis report |
 | Submission_Meet Specifications Review.pdf | Udacity review (Meets Specifications) |
 
