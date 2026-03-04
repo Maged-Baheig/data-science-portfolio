@@ -140,11 +140,11 @@ Use supervised classification to assign each of 10 new stores to the optimal for
 
 | Measure | Decision Tree | Forest | Boosted Model |
 |---------|---------------|--------|---------------|
-| Overall Accuracy | 65.0% | 71.0% | **76.0%** |
-| F1 Score | 67.0% | 75.0% | **83.0%** |
-| Error Rate Avg | 33.0% | 25.0% | **17.0%** |
-| Precision Avg | 66.0% | 70.0% | **79.0%** |
-| Recall Avg | 67.0% | 75.0% | **83.0%** |
+| Overall Accuracy | 65.0% | 71.0% | **76.0%**  ✅|
+| F1 Score | 67.0% | 75.0% | **83.0%**  ✅|
+| Error Rate Avg | 33.0% | 25.0% | **17.0%**  ✅|
+| Precision Avg | 66.0% | 70.0% | **79.0%**  ✅|
+| Recall Avg | 67.0% | 75.0% | **83.0%**  ✅|
 
 **Selected Model:** Boosted Model — outperformed on all 5 evaluation criteria.
 
