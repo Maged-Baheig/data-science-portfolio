@@ -3,6 +3,8 @@
 **End-to-End Retail Analytics: Clustering → Classification → Time Series Forecasting**
 
 ![Alteryx](https://img.shields.io/badge/Alteryx-Workflow-orange)
+![Python](https://img.shields.io/badge/Python-Planned-lightgrey)
+![KNIME](https://img.shields.io/badge/KNIME-Planned-lightgrey)
 ![Tableau](https://img.shields.io/badge/Tableau-Visualization-blue)
 ![Excel](https://img.shields.io/badge/Excel-Analysis-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
