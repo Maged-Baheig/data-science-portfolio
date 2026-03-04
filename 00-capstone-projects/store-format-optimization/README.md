@@ -27,6 +27,8 @@
 
 ## 🎯 Business Problem & Objective
 
+A retail grocery chain with **85 existing stores** was planning to open **10 new stores**. The company had been treating all stores similarly, but this approach was causing **product surpluses in some categories and shortages in others** — indicating a need for differentiated store formats and smarter inventory planning.
+
 A retail grocery chain needed to solve **three interconnected business problems**:
 
 | Task | Business Question | Method |
@@ -35,7 +37,7 @@ A retail grocery chain needed to solve **three interconnected business problems*
 | **Task 2** | Which format should each new store be assigned to? | Supervised Classification |
 | **Task 3** | What are the produce sales forecasts for all stores? | Time Series Forecasting |
 
-The analysis follows an end-to-end decision pipeline: **segment → classify → forecast** — translating model outputs into concrete business recommendations.
+The analysis follows an end-to-end decision pipeline: **segment → classify → forecast** — translating model outputs into concrete business recommendations for format assignment, merchandising strategy, and inventory planning.
 
 ---
 
