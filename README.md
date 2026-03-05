@@ -1,24 +1,28 @@
 # 🎯 Data Science & Machine Learning Portfolio
 
-**Maged Baheig | Independent Practitioner | 2020–2021**
+**Maged Baheig | Self-Directed Learning & Practice | 2020–2021**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/magedbaheig)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue)](https://www.kaggle.com/magedbaheig)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Top%2030%25-gold)](https://www.kaggle.com/magedbaheig)
 [![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:magedbaheig@gmail.com)
 
 ---
 
 ## 🚀 Overview
 
-This portfolio contains **12 end-to-end data science projects** demonstrating hands-on proficiency across:
+This portfolio showcases **12 end-to-end data science projects** demonstrating full-stack ML proficiency—from data acquisition to business recommendation:
 
-- 📈 **Supervised Learning** (Regression, Classification)
-- 🎯 **Unsupervised Learning** (Clustering, PCA)
-- 📊 **Time Series Forecasting** (ETS, ARIMA)
-- 🧪 **A/B Testing & Experimentation**
-- 🔧 **Data Wrangling & Engineering**
+| Discipline | Projects | Highlights |
+|------------|----------|------------|
+| 📈 **Supervised Learning (Regression)** | 5 | R² up to 0.92; $8.2M auction bid; Top 30% Kaggle |
+| 🎯 **Supervised Learning (Classification)** | 1 | 4 models compared; 79.3% accuracy; 408 creditworthy identified |
+| 🔮 **Unsupervised Learning (Clustering)** | 1 | PCA + Neural Gas; Rand/CH Index validation |
+| 📊 **Time Series Forecasting** | 1 | ETS vs ARIMA; Holdout-based selection; 80/95% CI |
+| 🧪 **A/B Testing & Experimentation** | 1 | 41% lift; P=0.000; $6.9M expected impact |
+| 🔧 **Data Wrangling & Engineering** | 2 | API integration; 30 data issues resolved; Interactive CLI |
+| 🏆 **Capstone (Multi-Method)** | 1 | Clustering → Classification → Forecasting pipeline |
 
-**🏆 Highlight:** Kaggle Top 30% ranking in Insurance Prediction challenge (8,040 participants, 500K records)
+**Portfolio Highlight:** Built a technical sandbox to master the full data science lifecycle—directly transferred to enterprise projects at Telecom Egypt: customer personas (22M+ customers), churn prediction (74%+ recall), and CX driver analysis (R² 0.45–0.99).
 
 ---
 
@@ -26,119 +30,180 @@ This portfolio contains **12 end-to-end data science projects** demonstrating ha
 
 | Metric | Value |
 |--------|-------|
-| Total Projects | 12 end-to-end |
-| Total Records Processed | 500K+ |
-| Kaggle Ranking | **Top 30%** (8,040 participants) |
-| ML Disciplines | 6 |
-| Tool Stacks | 4 (Python, Alteryx, Tableau, Excel) |
+| **Total Projects** | 12 end-to-end |
+| **Total Records Processed** | 500K+ |
+| **Kaggle Ranking** | **Top 30%** (8,040 participants; 60,288 submissions) |
+| **Models Built & Compared** | 25+ (including 12 in Capstone alone) |
+| **ML Disciplines Covered** | 6 |
+| **Tool Stacks Used** | 4 (Python, Alteryx, Tableau, Excel) |
 
 ---
 
-## 📁 Projects
+## 📁 Repository Structure
 
-### 1️⃣ Regression (5 Projects)
-
-#### 🐍 Python-Based
-
-| Project | Techniques | Scale | Results |
-|---------|------------|-------|---------|
-| [Insurance Claims (Kaggle)](./01-regression/kaggle-insurance-prediction/) | XGBoost, LightGBM | 500K records | **Top 30%**, RMSE 0.725 |
-
-#### 📊 Excel/Alteryx-Based (Modeling)
-
-| Project | Techniques | Scale | Results |
-|---------|------------|-------|---------|
-| [Diamond Pricing](./01-regression/diamond-pricing/) | Linear Regression (Dummy) | 5K train / 3K predict | R² 0.92, $8.2M bid |
-| [Catalog Demand](./01-regression/catalog-demand/) | Linear Regression | 2.3K train / 250 predict | R² 0.84, $21,987 profit |
-
-#### 🔧 Data Preparation for Regression (with Statistical Predictor Selection)
-
-| Project | Focus | Scale | Results |
-|---------|-------|-------|---------|
-| [School Cost Prediction](./01-regression/school-cost-prediction/) | Data Cleaning & Prep | Messy dataset | Regression-ready; correlation-validated predictors |
-| [Pet Store Sales (Pawdacity)](./01-regression/pet-store-sales/) | Outlier Analysis & Prep | 11 → 10 cities | R² 0.82 predictors identified via statistical validation |
-
-> 💡 *Data Preparation projects used advanced correlation techniques (R², P-Value) to select optimal predictor variables for downstream regression modeling.*
+| Folder | Description | Projects |
+|--------|-------------|----------|
+| `00-capstone-projects/` | Multi-method end-to-end projects | Store Format Optimization |
+| `01-regression/` | Supervised learning (continuous targets) | Insurance, Diamond, Catalog, School, Pet Store |
+| `02-classification/` | Supervised learning (categorical targets) | Credit Default Risk |
+| `03-clustering/` | Unsupervised learning | Country Segmentation |
+| `04-time-series/` | Forecasting models | Video Game Forecasting |
+| `05-experimentation/` | A/B testing and experiments | Coffee Shop Menu Launch |
+| `06-data-wrangling/` | Data engineering and cleaning | WeRateDogs, US Bikeshare |
 
 ---
 
-### 2️⃣ Classification (2 Projects)
+## 🏆 Featured Project: Predictive Analytics Capstone
 
-| Project | Techniques | Results |
-|---------|------------|---------|
-| [Credit Default Risk](./02-classification/credit-default-risk/) | Logistic Regression, Decision Tree, Random Forest, GBM | Multi-model comparison |
+### [Store Format Optimization](./00-capstone-projects/store-format-optimization/)
 
----
+**End-to-End Pipeline: Clustering → Classification → Time Series**
 
-### 3️⃣ Clustering & Segmentation (2 Projects)
+| Task | Method | Key Outcome |
+|------|--------|-------------|
+| **Store Segmentation** | K-Means (3 clusters) | 85 stores → 3 formats (25/35/25 split) |
+| **New Store Classification** | Boosted Model | 76% accuracy, 83% F1, 10 stores assigned |
+| **Sales Forecasting** | ETS(M,N,M) | MASE 0.44, 80%/95% confidence intervals |
 
-| Project | Techniques | Results |
-|---------|------------|---------|
-| [Country Segmentation](./03-clustering/country-segmentation/) | PCA, K-Means, Neural Gas | Market expansion analysis |
-| [Capstone: Store Optimization](./03-clustering/capstone-store-optimization/) | Clustering + Classification + Time Series | End-to-end solution |
+**Models Benchmarked:** 3 clustering (K-Means, K-Medians, Neural Gas) + 3 classification (Decision Tree, Random Forest, Boosted) + 6 time series (ETS variants, ARIMA variants) = **12 total**
 
----
-
-### 4️⃣ Time Series Forecasting (2 Projects)
-
-| Project | Techniques | Results |
-|---------|------------|---------|
-| [Video Game Forecasting](./04-time-series/video-game-forecasting/) | ETS, ARIMA | 80%/95% confidence intervals |
+**Business Impact:** Solved inventory problem—product surpluses and shortages from treating 85 stores identically.
 
 ---
 
-### 5️⃣ A/B Testing (1 Project)
+## 📈 Regression Projects (5)
 
-| Project | Techniques | Results |
-|---------|------------|---------|
-| [Coffee Shop Menu Launch](./05-ab-testing/coffee-shop-menu-launch/) | Matched-Pair Design | Statistical significance testing |
+### Python-Based
+
+| Project | Model | Scale | Key Results |
+|---------|-------|-------|-------------|
+| [**Insurance Claims (Kaggle)**](./01-regression/kaggle-insurance-prediction/) | LightGBM | 300K train / 200K test | **Top 30%** of 8,040; RMSE 0.725; 2-fold CV |
+
+### Alteryx/Excel-Based
+
+| Project | Model | Scale | Key Results |
+|---------|-------|-------|-------------|
+| [**Diamond Pricing**](./01-regression/diamond-pricing/) | MLR (Dummy Variables) | 5K train / 3K predict | **R² 0.92**; Bid: **$8.2M** |
+| [**Catalog Demand**](./01-regression/catalog-demand/) | MLR | 2.3K train / 250 predict | **R² 0.84**; Profit: **$21,987** |
+
+### Data Preparation with Statistical Predictor Selection
+
+| Project | Focus | Key Results |
+|---------|-------|-------------|
+| [**School Cost Prediction**](./01-regression/school-cost-prediction/) | Data Cleaning (messy data) | Regression-ready dataset; validated predictors |
+| [**Pet Store Sales**](./01-regression/pet-store-sales/) | Outlier Analysis | Best predictor **R² 0.82**; Gillette outlier removed |
+
+**Note:** Data preparation projects used R², P-Value, and correlation analysis to statistically validate predictor variables—not just cleaning, but ensuring model-readiness.
 
 ---
 
-### 6️⃣ Data Wrangling (2 Projects)
+## 🎯 Classification Project (1)
 
-| Project | Techniques | Results |
-|---------|------------|---------|
-| [Twitter WeRateDogs](./06-data-wrangling/twitter-weratedogs/) | API (tweepy), Multi-format processing | 30 data issues resolved |
-| [US Bikeshare Explorer](./06-data-wrangling/us-bikeshare/) | Python, Pandas, Interactive CLI | Descriptive statistics tool |
+| Project | Models Compared | Best Model | Key Results |
+|---------|-----------------|------------|-------------|
+| [**Credit Default Risk**](./02-classification/credit-default-risk/) | Logistic Regression, Decision Tree, Random Forest, Boosted | **Random Forest** | **79.3% accuracy**, 73.7% AUC, 408 creditworthy from 500 applicants |
+
+**Selection Criteria:** Best overall accuracy + largest AUC + acceptable bias (6.5%)
 
 ---
 
-## 🛠️ Tech Stack
+## 🔮 Clustering Project (1)
+
+| Project | Techniques | Validation | Key Results |
+|---------|------------|------------|-------------|
+| [**Country Segmentation**](./03-clustering/country-segmentation/) | PCA + Neural Gas | Rand Index, CH Index, Tableau Map | 3 clusters; USA-similar countries identified for market expansion |
+
+**Methods Compared:** K-Means, K-Medians, Neural Gas → Neural Gas selected for superior CH Index performance.
+
+---
+
+## 📊 Time Series Project (1)
+
+| Project | Models Compared | Best Model | Key Results |
+|---------|-----------------|------------|-------------|
+| [**Video Game Forecasting**](./04-time-series/video-game-forecasting/) | ETS(M,A,M), ETS(M,Ad,M), ARIMA(0,1,1)(0,1,0)[12] | **ARIMA** | RMSE ~37K, MASE 0.36; 4-month forecast |
+
+**Key Insight:** ARIMA selected despite worse in-sample fit—holdout validation revealed better generalization (avoiding overfitting trap).
+
+---
+
+## 🧪 A/B Testing Project (1)
+
+| Project | Design | Test Period | Key Results |
+|---------|--------|-------------|-------------|
+| [**Coffee Shop Menu Launch**](./05-experimentation/coffee-shop-menu-launch/) | Matched-Pair (10 treatment : 20 control) | 12 weeks | **41% lift**, P=0.000, **$6.9M** expected impact |
+
+**Methodology:** 4 control variables (Trend, Seasonality, AvgMonthSales, Region); multicollinearity handled; regional breakdown (West 36.3%, Central 45.8%).
+
+**Recommendation:** Roll out new menu to all stores—exceeded 18% practical significance threshold.
+
+---
+
+## 🔧 Data Wrangling Projects (2)
+
+| Project | Data Sources | Techniques | Key Results |
+|---------|--------------|------------|-------------|
+| [**Twitter WeRateDogs**](./06-data-wrangling/twitter-weratedogs/) | 3 (CSV, TSV, Twitter API) | tweepy, requests, regex | **30 issues resolved** (22 quality, 6 tidiness, 2 FE); 6 research questions answered |
+| [**US Bikeshare Explorer**](./06-data-wrangling/us-bikeshare/) | 3 cities (CSV) | Pandas, Interactive CLI | **9 modular functions**; 5 statistics categories; error handling |
+
+---
+
+## 🛠️ Technical Stack
 
 | Category | Technologies |
 |----------|--------------|
-| **Programming** | Python (Pandas, NumPy, scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn) |
-| **Tools** | Alteryx, Tableau, Jupyter Notebook, Excel |
-| **Methods** | Regression, Classification, Clustering, PCA, Time Series (ETS/ARIMA), A/B Testing |
+| **Programming** | Python (Pandas, NumPy, scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, tweepy, requests) |
+| **Analytics Platforms** | Alteryx Designer, Tableau, Jupyter Notebook, Excel |
+| **ML Methods** | Linear/Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, K-Means, K-Medians, Neural Gas, PCA, ETS, ARIMA |
+| **Experimentation** | A/B Testing, Matched-Pair Design, Hypothesis Testing |
+| **Data Engineering** | API Integration, Multi-Format Processing (CSV, JSON, TSV), Data Quality Assessment |
+
+---
+
+## 📚 Skills Demonstrated
+
+| Skill Category | Specific Skills |
+|----------------|-----------------|
+| **Supervised ML** | Regression (Linear, Boosted), Classification (Logistic, Tree, Forest, GBM) |
+| **Unsupervised ML** | Clustering (K-Means, Neural Gas), Dimensionality Reduction (PCA) |
+| **Time Series** | ETS, ARIMA, Decomposition (E/T/S), ACF/PACF Analysis |
+| **Experimentation** | A/B Testing, Matched-Pair Design, Statistical/Practical Significance |
+| **Data Engineering** | API Integration, Multi-Source Wrangling, Quality Assessment |
+| **Validation** | Cross-Validation, Holdout Testing, R², AUC-ROC, RMSE, MASE, F1 |
+| **Business Translation** | Profit Estimation, Bidding Strategy, Expansion Recommendation, Go/No-Go Decisions |
 
 ---
 
 ## 📜 Certifications
 
-| Certification | Provider |
-|---------------|----------|
-| Data Analysis Professional Nanodegree | Udacity (FWD) |
-| Predictive Analytics for Business Nanodegree | Udacity (Bertelsmann) |
+| Certification | Provider | Year |
+|---------------|----------|------|
+| Data Analysis Professional Nanodegree | Udacity (FWD Egypt) | 2020 |
+| Predictive Analytics for Business Nanodegree | Udacity (Bertelsmann) | 2021 |
 
 ---
 
-## 💼 Professional Background
+## 💼 Corporate Application
 
-This self-directed portfolio complements **10+ years of corporate experience** in CX Analytics at Telecom Egypt, where I've applied these techniques to:
+This self-directed portfolio directly informed **enterprise applications** at Telecom Egypt:
 
-| Application | Scale |
-|-------------|-------|
-| Customer segmentation | 22M+ customers |
-| Churn prediction | 74%+ recall |
-| CX driver analysis | R² 0.45–0.99 |
-| Executive dashboards | 30+ dashboards, 100+ KPIs |
+| Technique | Portfolio Project | Corporate Application |
+|-----------|-------------------|----------------------|
+| **Clustering** | Country Segmentation, Capstone | Customer Personas (22M+ FBB/Mobile) |
+| **Regression** | Diamond, Catalog, Kaggle | CX Driver Analysis (R² 0.45–0.99) |
+| **Time Series** | Video Game, Capstone | Demand Forecasting Concepts |
+| **A/B Testing** | Coffee Shop | Experiment Design Methodology |
+| **Data Wrangling** | WeRateDogs, Bikeshare | VoC Text Analytics (~97% time reduction) |
+
+**Bottom Line:** This portfolio demonstrates not just tool knowledge, but **proven modeling, validation, and business translation capability**—the foundation for my CX Analytics leadership at Telecom Egypt.
 
 ---
 
 ## 👤 Author
 
 **Maged Baheig**
+
+CX Data Analytics & Insights Manager | Telecom Egypt
 
 | Platform | Link |
 |----------|------|
@@ -153,12 +218,22 @@ This self-directed portfolio complements **10+ years of corporate experience** i
 
 ## 💼 Available for Opportunities
 
-I'm open to:
-- 📊 Data Analytics Manager roles
-- 🔬 Data Science Manager roles
-- 🎯 CX Analytics / Insights Manager roles
-- 💻 Freelance Data Science & Analytics projects
-- 🎓 Freelance Data Analytics & Data Science Training
+| Opportunity Type | Areas |
+|------------------|-------|
+| **Full-Time Roles** | Data Analytics Manager, Data Science Manager, CX Analytics/Insights Manager |
+| **Freelance** | Data Science & Analytics Projects, Training & Workshops |
+| **Training** | Python, SQL, Power BI, ML, Statistics, Data Visualization, CX Analytics |
+
+---
+
+## ⭐ Acknowledgments
+
+| Entity | Contribution |
+|--------|--------------|
+| **Udacity** | Nanodegree Programs |
+| **Bertelsmann** | Scholarship Sponsorship |
+| **FWD Egypt** | Scholarship Sponsorship |
+| **Kaggle** | Competition Platform |
 
 ---
 
