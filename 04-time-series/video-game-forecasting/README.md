@@ -240,7 +240,7 @@ A video game retailer needs to forecast monthly sales for the next 4 periods to 
 |---------|------|------|
 | Capstone: Store Optimization | Clustering + Classification + Forecasting | [Link](../../00-capstone-projects/store-format-optimization/) |
 | Country Segmentation for Market Expansion | Clustering | [Link](../../03-clustering/country-segmentation) |
-| Diamond Price Prediction | Regression | [Link](../../01-regression/diamond-price-prediction/) |
+| Diamond Price Prediction | Regression | [Link](../../01-regression/diamond-pricing) |
 | Credit Default Risk | Classification | [Link](../../02-classification/credit-default-risk/) |
 
 ---
