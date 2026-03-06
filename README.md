@@ -178,6 +178,7 @@ This portfolio showcases **12 end-to-end data science projects** demonstrating f
 
 | Certification | Provider | Year |
 |---------------|----------|------|
+| Microsoft Certified PL-300: Data Analyst Associate | Microsoft  | 2021 |
 | Data Analysis Professional Nanodegree | Udacity (FWD Egypt) | 2020 |
 | Predictive Analytics for Business Nanodegree | Udacity (Bertelsmann) | 2021 |
 
@@ -204,6 +205,8 @@ This self-directed portfolio directly informed **enterprise applications** at Te
 **Maged Baheig**
 
 CX Data Analytics & Insights Manager | Telecom Egypt
+Freelance Data Science Trainer | 30+ programs, 540+ hours, 250+ professionals, 98% satisfaction
+
 
 | Platform | Link |
 |----------|------|
@@ -222,7 +225,7 @@ CX Data Analytics & Insights Manager | Telecom Egypt
 |------------------|-------|
 | **Full-Time Roles** | Data Analytics Manager, Data Science Manager, CX Analytics/Insights Manager |
 | **Freelance** | Data Science & Analytics Projects, Training & Workshops |
-| **Training** | Python, SQL, Power BI, ML, Statistics, Data Visualization, CX Analytics |
+| **Training** | Power BI, Excel, Python, SQL, ML, Statistics, Data Visualization, CX Analytics, Business Analytics (CRISP-DM) |
 
 ---
 
