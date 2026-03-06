@@ -148,6 +148,16 @@ Training experience demonstrates ability to translate complex technical concepts
 CX Data Analytics & Insights Manager | Telecom Egypt
 Freelance Data Science Trainer | 30+ programs • 540+ hours • 250+ professionals • 98% satisfaction
 
+| Platform | Link |
+|----------|------|
+| LinkedIn | [Connect](https://www.linkedin.com/in/magedbaheig) |
+| Kaggle | [Profile](https://www.kaggle.com/magedbaheig) |
+| GitHub | [Follow](https://github.com/Maged-Baheig) |
+| Email | [Reach Out](mailto:magedbaheig@gmail.com) |
+
+📍 **Location:** Cairo, Egypt
+
+
 📍 Cairo, Egypt
 
 ---
