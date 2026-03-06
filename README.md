@@ -50,6 +50,7 @@ This portfolio showcases **12 end-to-end data science projects** demonstrating f
 | `04-time-series/` | Forecasting models | Video Game Forecasting |
 | `05-experimentation/` | A/B testing and experiments | Coffee Shop Menu Launch |
 | `06-data-wrangling/` | Data engineering and cleaning | WeRateDogs, US Bikeshare |
+| `07-training/` | Leadership, Training & Capability Building | Training Programs Overview |
 
 ---
 
@@ -225,7 +226,7 @@ Freelance Data Science Trainer | 30+ programs, 540+ hours, 250+ professionals, 9
 |------------------|-------|
 | **Full-Time Roles** | Data Analytics Manager, Data Science Manager, CX Analytics/Insights Manager |
 | **Freelance** | Data Science & Analytics Projects, Training & Workshops |
-| **Training** | Power BI, Excel, Python, SQL, ML, Statistics, Data Visualization, CX Analytics, Business Analytics (CRISP-DM) |
+| **Training** | Data Science, Data Analytics, Power BI (PL-300) , Excel, Python, SQL, ML, Statistics, Data Visualization, CX Analytics, Business Analytics (CRISP-DM) |
 
 ---
 
@@ -233,10 +234,12 @@ Freelance Data Science Trainer | 30+ programs, 540+ hours, 250+ professionals, 9
 
 | Entity | Contribution |
 |--------|--------------|
+| **Microsoft** | Power BI Desktop Pl-300 |
 | **Udacity** | Nanodegree Programs |
 | **Bertelsmann** | Scholarship Sponsorship |
 | **FWD Egypt** | Scholarship Sponsorship |
 | **Kaggle** | Competition Platform |
+
 
 ---
 
