@@ -50,7 +50,7 @@ This portfolio showcases **12 end-to-end data science projects** demonstrating f
 | `04-time-series/` | Forecasting models | Video Game Forecasting |
 | `05-experimentation/` | A/B testing and experiments | Coffee Shop Menu Launch |
 | `06-data-wrangling/` | Data engineering and cleaning | WeRateDogs, US Bikeshare |
-| `07-training/` | Leadership, Training & Capability Building | Training Programs Overview |
+| `07-training-and-capability-building/` | Leadership, Training & Capability Building | Training Programs Overview |
 
 ---
 
@@ -209,6 +209,7 @@ CX Data Analytics & Insights Manager | Telecom Egypt
 Freelance Data Science Trainer | 30+ programs, 540+ hours, 250+ professionals, 98% satisfaction
 
 
+- 
 | Platform | Link |
 |----------|------|
 | LinkedIn | [Connect](https://www.linkedin.com/in/magedbaheig) |
@@ -226,7 +227,7 @@ Freelance Data Science Trainer | 30+ programs, 540+ hours, 250+ professionals, 9
 |------------------|-------|
 | **Full-Time Roles** | Data Analytics Manager, Data Science Manager, CX Analytics/Insights Manager |
 | **Freelance** | Data Science & Analytics Projects, Training & Workshops |
-| **Training** | Data Science, Data Analytics, Power BI (PL-300) , Excel, Python, SQL, ML, Statistics, Data Visualization, CX Analytics, Business Analytics (CRISP-DM) |
+| **Training** | Data Science, Data Analytics, Power BI (PL-300) , Excel, Python, SQL, ML, Statistics, Data Visualization, CX Analytics, Customer Experience Management (CXM), Business Analytics (CRISP-DM) |
 
 ---
 
