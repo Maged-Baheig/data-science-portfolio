@@ -158,8 +158,6 @@ Freelance Data Science Trainer | 30+ programs • 540+ hours • 250+ profession
 📍 **Location:** Cairo, Egypt
 
 
-📍 Cairo, Egypt
-
 ---
 
 *Part of the [Professional Portfolio](https://github.com/Maged-Baheig/data-science-portfolio)*
